@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<metadata>
+	<!-- 1.6+ -->
+	<layout title="COM_MYJSPACE_SEE_VIEW_DEFAULT_TITLE">
+		<message>COM_MYJSPACE_SEE_VIEW_DEFAULT_DESC</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. 1.6+ -->
+	<fields name="params">
+		<!-- Basic options. -->
+		<fieldset name="basic" label="COM_MYJSPACE_ADMIN_OPTIONS" >
+			<field name="catid" type="category" extension="com_myjspace" show_root="true" default="" label="COM_MYJSPACE_CATID_LABEL" description="COM_MYJSPACE_CATID_DESC" />
+			<field name="id" type="text" default="" size="5" label="COM_MYJSPACE_ID_LABEL" description="COM_MYJSPACE_ID_DESC" />
+			<field name="pagename" type="text" default="" size="8" label="COM_MYJSPACE_SEE_VIEW_SELECT_PAGENAME_LABEL" description="COM_MYJSPACE_SEE_VIEW_SELECT_PAGENAME_DESC" />
+		</fieldset>
+	</fields>
+
+	<!-- Add fields to the request variables for the layout. 1.5 -->
+	<state>
+		<name>COM_MYJSPACE_SEE_VIEW_DEFAULT_TITLE</name>
+		<description>COM_MYJSPACE_SEE_VIEW_DEFAULT_DESC</description>
+		<url>
+		</url>
+		<params>
+			<param name="id" type="text" default="" size="5" label="COM_MYJSPACE_ID_LABEL" description="COM_MYJSPACE_ID_DESC" />
+			<param name="pagename" type="text" default="" size="8" label="COM_MYJSPACE_SEE_VIEW_SELECT_PAGENAME_LABEL" description="COM_MYJSPACE_SEE_VIEW_SELECT_PAGENAME_DESC" />
+		</params>
+	</state>
+
+</metadata>

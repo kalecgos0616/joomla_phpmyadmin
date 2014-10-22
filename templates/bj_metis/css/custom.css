@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bjmod-style-2-noise{
+	background:url(../images/blue/bj-blue-noise.png);
+}
+
+.bjmod-color-pink, .bjmod-color-viridian, .bjmod-color-red, .bjmod-color-blue, .bjmod-color-yellow, .bjmod-color-brown{
+	border-top:0px!important;
+	background:#fff !important;
+}
+.bjmod-color-pink .boder-top{
+	background:#e35787 !important;	
+	height:3px;
+	position:absolute;
+	left:-1px;
+}
+.bjmod-color-red .boder-top{
+	background:#e24b2d !important;	
+	height:3px;
+	position:absolute;
+	left:-1px;
+}
+.bjmod-color-blue .boder-top{
+	background:#1bb0ce !important;	
+	height:3px;
+	position:absolute;
+	left:-1px;
+}
+.bjmod-color-yellow .boder-top{
+	background:#fc930a !important;	
+	height:3px;
+	position:absolute;
+	left:-1px;
+}
+.bjmod-color-brown .boder-top{
+	background:#a37e58 !important;	
+	height:3px;
+	position:absolute;
+	left:-1px;
+}
+.bjmod-color-viridian .boder-top{
+	background:#00949a !important;	
+	height:3px;
+	position:absolute;
+	left:-1px;
+}
+.bj-modules .bjmod-color-red h3, .bjmod-color-red a{
+	color:#e24b2d ;
+}
+.bj-modules .bjmod-color-blue h3, .bjmod-color-blue a{
+	color:#1bb0ce ;
+}
+.bj-modules .bjmod-color-viridian h3, .bjmod-color-viridian a{
+	color:#00949a ;
+}
+.bj-modules .bjmod-color-yellow h3, .bjmod-color-yellow a{
+	color:#fc930a ;
+}
+.bj-modules .bjmod-color-pink h3, .bjmod-color-pink a{
+	color:#e35787 ;
+}
+.bj-modules .bjmod-color-brown h3, .bjmod-color-brown a{
+	color:#a37e58 ;
+}
+
+.bj-user-brown, .bjmod-bg-brown, .bj-tem-top-brown{
+	background:#a37e58 !important;
+}
+.bj-user-red, .bjmod-bg-red, .bj-tem-top-red{
+	background:#e24b2d !important;
+}
+.bj-user-yellow, .bjmod-bg-yellow, .bj-tem-top-yellow{
+	background:#fc930a !important;
+}
+.bj-user-viridian, .bjmod-bg-viridian, .bj-tem-top-viridian{
+	background:#00949a !important;
+}
+.bj-user-pink, .bjmod-bg-pink, .bj-tem-top-pink{
+	background:#e35787 !important;
+}
+.bj-user-blue, .bjmod-bg-blue, .bj-tem-top-blue{
+	background:#1bb0ce !important;
+}
+
+.bjmod-bg-brown p, .bjmod-bg-red p, .bjmod-bg-yellow p, .bjmod-bg-viridian p, .bjmod-bg-pink p, .bjmod-bg-blue p, .bj-modules .bjmod-bg-brown h3, .bj-modules .bjmod-bg-red h3, .bj-modules .bjmod-bg-yellow H3, .bj-modules .bjmod-bg-viridian h3, .bj-modules .bjmod-bg-pink h3, .bj-modules .bjmod-bg-blue h3{
+	color:#FFF;
+}
+.bjmod-bg-brown a, .bjmod-bg-red a, .bjmod-bg-yellow a, .bjmod-bg-viridian a, .bjmod-bg-pink a, .bjmod-bg-blue a{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+/*.bjmod-color-big-red{
+	border-top:3px solid #e24b2d !important;	
+}
+.bjmod-color-big-blue{
+	border-top:3px solid #1bb0ce !important;
+}
+.bjmod-color-big-viridian{
+	border-top:3px solid #00949a !important;	
+}
+.bjmod-color-big-yellow{
+	border-top:3px solid #fc930a !important;	
+}
+.bjmod-color-big-pink{
+	border-top:3px solid #e35787 !important;	
+}
+.bjmod-color-big-brown{
+	border-top:3px solid #a37e58 !important;	
+}
+
+*/
+

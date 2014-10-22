@@ -1,0 +1,6 @@
+.blog .readmore a, .readmore a{text-decoration:none; font-size:12px; font-variant:small-caps; padding-left:0px}
+
+/* new article info */
+.article-info-term{display:none}
+.items-leading{padding:5px; border:1px solid #333; background-image:url(../images/leading_back.png); background-repeat:repeat}
+.item-page, .cols-1, .cols-2, .cols-3, .cols-4, .category{padding:5px; border:1px solid #333; background-image:url(../images/content_back.png); background-repeat:repeat}

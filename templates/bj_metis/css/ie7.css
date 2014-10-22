@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bj-menu .list_menu li a{
+	padding:9px 11px 10px;
+}
+.bj-login-from .button{
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.bj-text ul li{
+	margin:0px;
+	padding:0px;
+	height:auto;
+	margin-bottom:15px;
+}
+
+
+.bj-advert-2 p span{
+	display:block;
+	float:left;
+}
+/*
+.bj-text-content{
+	margin-top:15px;
+}
+.bj-text-content .contentpaneopen{
+	display:inline-block;
+	margin-top:10px;
+}
+.bj-text-content h2{
+	margin-left:20px;
+	margin-right:20px;
+}
+.bj-text-content h1, .bj-text-content p{
+	margin:0px 20px;
+}
+.bj-text-content p{
+	margin-bottom:10px !important;
+	display:inline-block;
+}
+.bj-text-content h1{
+	margin-top:20px;
+	margin-bottom:10px;	
+}
+.bj-text-content h1 a{
+	font-size:22px;
+}*/
+.thumbmail{
+	margin:17px;
+	margin-bottom:0px;
+}
+.gallery_out{
+	left:5px !important;
+}
+.mercury-headline{
+	position:relative;
+}
+.mercury-headline .control{
+	position:absolute;
+}
+.bj-article .buttonheading{
+	margin-top:-15px;
+}
+
+/*.bj-user .bj-user1,.bj-user .bj-user2, .bj-user .bj-user3, .bj-user .bj-user4{
+	margin:0px;
+	padding:0px;
+}*/
+
+/*.bj-user .bj-user4{
+	margin-right:0px;
+}*/
+

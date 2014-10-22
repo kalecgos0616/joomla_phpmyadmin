@@ -1,0 +1,5 @@
+/* Configuration Menu Links */
+#leftcolumn div.module_menu a{text-decoration:none; padding-left:18px; margin-top:6px; background-image: url(../images/menu_icon.png); background-repeat:no-repeat}
+#leftcolumn div.module_menu a:hover{padding-left:18px; background-image: url(../images/menu_icon_hover.png); background-position:left; background-repeat:no-repeat}
+#leftcolumn div.module_menu ul li a{text-decoration:none; font-size: 11px; margin-top:3px}
+#leftcolumn div.module_menu ul ul li a{text-decoration:none; text-decoration:none; margin-left:5px; font-size: 11px; margin-top:3px}

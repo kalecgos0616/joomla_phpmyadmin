@@ -1,0 +1,16 @@
+.blog .readmore a, .blog-featured .readmore a{text-decoration:none; font-size:12px; font-variant:small-caps; background-image:url(../images/menu_icon.png) !important; background-image:none; background-repeat:no-repeat; padding-left:23px !important; padding-left:0px}
+.blog .readmore a:hover, .readmore a:hover{background-image:url(../images/menu_icon_hover.png) !important; background-image:none; background-repeat:no-repeat}
+
+/* new article info */
+.article-info-term{display:none}
+.content_rating{background-image:url(../images/icon_category.gif); background-repeat:no-repeat; padding-left:20px}
+.parent-category-name{background-image:url(../images/icon_category.gif); background-repeat:no-repeat; padding-left:20px}
+.category-name{background-image:url(../images/icon_category.gif); background-repeat:no-repeat; padding-left:20px}
+.create{background-image:url(../images/icon_date_edit.gif); background-repeat:no-repeat; padding-left:20px}
+.modified{background-image:url(../images/icon_date_edit.gif); background-repeat:no-repeat; padding-left:20px}
+.published{background-image:url(../images/icon_date_add.gif); background-repeat:no-repeat; padding-left:20px}
+.createdby{background-image:url(../images/icon_user.gif); background-repeat:no-repeat; padding-left:20px}
+.hits{background-image:url(../images/icon_hits.png); background-repeat:no-repeat; padding-left:20px}
+
+.items-leading{padding:5px; border:1px solid #333; background-image:url(../images/leading_back.png); background-repeat:repeat}
+.item-page, .cols-1, .cols-2, .cols-3, .cols-4, .category{padding:5px; border:1px solid #333; background-image:url(../images/content_back.png); background-repeat:repeat}

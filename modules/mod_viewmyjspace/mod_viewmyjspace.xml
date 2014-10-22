@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6" client="site" method="upgrade">
+	<name>BS ViewMyJspace</name>
+	<author>Bernard Saulme</author>
+	<creationDate>01/08/2014</creationDate>
+	<authorEmail>bernard@wanadoo.fr</authorEmail>
+	<authorUrl>http://softs.saulme.fr</authorUrl>
+	<copyright>Copyright (C) 2010-2011-2012-2013-2014 - Bernard Saulme</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>2.4.2</version>
+	<build>69</build>
+	<description>MOD_VIEWMYJSPACE_XML_DESCRIPTION</description>
+
+	<scriptfile>install.php</scriptfile>
+		
+	<files>
+		<filename module="mod_viewmyjspace">mod_viewmyjspace.php</filename>
+		<filename>COPYRIGHT.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+		<folder>images</folder>		
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB.mod_viewmyjspace.ini</language>
+		<language tag="en-GB">en-GB.mod_viewmyjspace.sys.ini</language>
+		<language tag="fr-FR">fr-FR.mod_viewmyjspace.ini</language>
+		<language tag="fr-FR">fr-FR.mod_viewmyjspace.sys.ini</language>
+	</languages>	
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_myjspace/models/fields">
+				<field name="showmode" type="list" default="1" label="MOD_VIEWMYJSPACE_SHOWMODE_LABEL" description="MOD_VIEWMYJSPACE_SHOWMODE_DESC">
+					<option value="0">MOD_VIEWMYJSPACE_SHOWMODE_COUNT</option>
+					<option value="1">MOD_VIEWMYJSPACE_SHOWMODE_NAMES</option>
+					<option value="2">MOD_VIEWMYJSPACE_SHOWMODE_BOTH</option>
+				</field>
+				<field name="countmode" type="list" default="0" label="MOD_VIEWMYJSPACE_COUNTMODE_LABEL" description="MOD_VIEWMYJSPACE_COUNTMODE_DESC">
+					<option value="0">MOD_VIEWMYJSPACE_COUNTMODE_0</option>
+					<option value="1">MOD_VIEWMYJSPACE_COUNTMODE_1</option>
+					<option value="2">MOD_VIEWMYJSPACE_COUNTMODE_2</option>
+					<option value="3">MOD_VIEWMYJSPACE_COUNTMODE_3</option>
+				</field>
+				<field name="separ" type="list" default="0" label="MOD_VIEWMYJSPACE_SEPAR_LABEL" description="MOD_VIEWMYJSPACE_SEPAR_DESC">
+					<option value="0">MOD_VIEWMYJSPACE_SEPAR_0</option>
+					<option value="1">MOD_VIEWMYJSPACE_SEPAR_1</option>
+					<option value="3">MOD_VIEWMYJSPACE_SEPAR_3</option>
+				</field>
+				<field name="showmode1" type="mycheckboxes" default="1" label="MOD_VIEWMYJSPACE_SHOWMODE1_LABEL" description="MOD_VIEWMYJSPACE_SHOWMODE1_DESC" >
+					<option value="64">MOD_VIEWMYJSPACE_SHOWMODE1_64</option>
+					<option value="1">MOD_VIEWMYJSPACE_SHOWMODE1_1</option>	
+					<option value="2">MOD_VIEWMYJSPACE_SHOWMODE1_2</option>	
+					<option value="8">MOD_VIEWMYJSPACE_SHOWMODE1_8</option>	
+					<option value="16">MOD_VIEWMYJSPACE_SHOWMODE1_16</option>	
+					<option value="32">MOD_VIEWMYJSPACE_SHOWMODE1_32</option>	
+					<option value="4">MOD_VIEWMYJSPACE_SHOWMODE1_4</option>	
+					<option value="256">MOD_VIEWMYJSPACE_SHOWMODE1_256</option>	
+				</field>
+				<field name="spacer_options_list" type="spacer" default="" label="MOD_VIEWMYJSPACE_OPTIONS_LIST" />
+				<field name="showmode2" type="list" default="1" label="MOD_VIEWMYJSPACE_SHOWMODE2_LABEL" description="MOD_VIEWMYJSPACE_SHOWMODE2_DESC">
+					<option value="0">MOD_VIEWMYJSPACE_SHOWMODE2_LIST</option>
+					<option value="1">MOD_VIEWMYJSPACE_SHOWMODE2_TEXT</option>
+				</field>
+				<field name="showmode0" type="list" default="inherit" label="MOD_VIEWMYJSPACE_SHOWMODE0_LABEL" description="MOD_VIEWMYJSPACE_SHOWMODE0_DESC">
+					<option value="left">MOD_VIEWMYJSPACE_SHOWMODE0_LEFT</option>
+					<option value="center">MOD_VIEWMYJSPACE_SHOWMODE0_CENTER</option>
+					<option value="right">MOD_VIEWMYJSPACE_SHOWMODE0_RIGHT</option>
+					<option value="justify">MOD_VIEWMYJSPACE_SHOWMODE0_JUSTIFY</option>
+					<option value="inherit">MOD_VIEWMYJSPACE_SHOWMODE0_INHERIT</option>
+				</field>
+				<field name="spacer_options_block" type="spacer" default="" label="MOD_VIEWMYJSPACE_OPTIONS_BLOCK" />
+				<field type="text" name="description_limit" size="5" default="45" label="MOD_VIEWMYJSPACE_DESCRIPTION_LIMIT_LABEL" description="MOD_VIEWMYJSPACE_DESCRIPTION_LIMIT_DESC" />
+				<field name="search_image_type" type="list" default="2" label="MOD_VIEWMYJSPACE_SEARCH_IMAGE_TYPE_LABEL" description="MOD_VIEWMYJSPACE_SEARCH_IMAGE_TYPE_DESC" >
+					<option value="1">MOD_VIEWMYJSPACE_SEARCH_IMAGE_TYPE_1</option>
+					<option value="2">MOD_VIEWMYJSPACE_SEARCH_IMAGE_TYPE_2</option>
+					<option value="3">MOD_VIEWMYJSPACE_SEARCH_IMAGE_TYPE_3</option>
+					<option value="4">MOD_VIEWMYJSPACE_SEARCH_IMAGE_TYPE_4</option>
+					<option value="5">MOD_VIEWMYJSPACE_SEARCH_IMAGE_TYPE_5</option>
+				</field>
+				<field name="search_image_video" type="radio" default="1" label="MOD_VIEWMYJSPACE_SEARCH_IMAGE_VIDEO_DEFAULT_LABEL" description="MOD_VIEWMYJSPACE_SEARCH_IMAGE_VIDEO_DEFAULT_DESC" class="btn-group" >
+					<option value="0">MOD_VIEWMYJSPACE_NO</option>
+					<option value="1">MOD_VIEWMYJSPACE_YES</option>
+				</field>
+				<field name="spacer_options_wall" type="spacer" default="" label="MOD_VIEWMYJSPACE_OPTIONS_WALL" />
+				<field name="search_image_effect" type="list" default="3" label="MOD_VIEWMYJSPACE_SEARCH_IMAGE_EFFECT_LABEL" description="MOD_VIEWMYJSPACE_SEARCH_IMAGE_EFFECT_DESC" >
+					<option value="0">MOD_VIEWMYJSPACE_SEARCH_IMAGE_EFFECT_0</option>
+					<option value="1">MOD_VIEWMYJSPACE_SEARCH_IMAGE_EFFECT_1</option>
+					<option value="2">MOD_VIEWMYJSPACE_SEARCH_IMAGE_EFFECT_2</option>
+					<option value="3">MOD_VIEWMYJSPACE_SEARCH_IMAGE_EFFECT_3</option>
+				</field>
+				<field name="spacer_options_other" type="spacer" default="" label="MOD_VIEWMYJSPACE_OPTIONS_OTHER" />
+				<field type="text" name="title_limit" size="5" default="20" label="MOD_VIEWMYJSPACE_TITLE_LIMIT_LABEL" description="MOD_VIEWMYJSPACE_TITLE_LIMIT_DESC" />
+				<field name="search_block_width" type="text" size="4" default="65" label="MOD_VIEWMYJSPACE_SEARCH_BLOCK_WIDTH_LABEL" description="MOD_VIEWMYJSPACE_SEARCH_BLOCK_WIDTH_DESC" />
+				<field name="search_block_height" type="text" size="4" default="85" label="MOD_VIEWMYJSPACE_SEARCH_BLOCK_HEIGHT_LABEL" description="MOD_VIEWMYJSPACE_SEARCH_BLOCK_HEIGHT_DESC" />
+				<field name="search_block_width_min" type="text" size="4" default="65" label="MOD_VIEWMYJSPACE_SEARCH_BLOCK_WIDTH_MIN_LABEL" description="MOD_VIEWMYJSPACE_SEARCH_BLOCK_WIDTH_MIN_DESC" />
+				<field name="search_block_height_min" type="text" size="4" default="85" label="MOD_VIEWMYJSPACE_SEARCH_BLOCK_HEIGHT_MIN_LABEL" description="MOD_VIEWMYJSPACE_SEARCH_BLOCK_HEIGHT_MIN_DESC" />
+				<field type="text" name="content_limit" size="5" default="150" label="MOD_VIEWMYJSPACE_CONTENT_LIMIT_LABEL" description="MOD_VIEWMYJSPACE_CONTENT_LIMIT_DESC" />
+				<field type="text" name="search_image_default" size="60" default="components/com_myjspace/images/default.png" label="MOD_VIEWMYJSPACE_IMAGE_DEFAULT_LABEL" description="MOD_VIEWMYJSPACE_IMAGE_DEFAULT_DESC" />
+				<field name="affimgcon" type="radio" default="1" label="MOD_VIEWMYJSPACE_AFFIMGCON_LABEL" description="MOD_VIEWMYJSPACE_AFFIMGCON_DESC" class="btn-group" >
+					<option value="0">MOD_VIEWMYJSPACE_NO</option>
+					<option value="1">MOD_VIEWMYJSPACE_YES</option>
+				</field>
+				<field name="triemode" type="list" default="2" label="MOD_VIEWMYJSPACE_TRIEMODE_LABEL" description="MOD_VIEWMYJSPACE_TRIEMODE_DESC">
+					<option value="0">MOD_VIEWMYJSPACE_TRIEMODE_0</option>
+					<option value="1">MOD_VIEWMYJSPACE_TRIEMODE_1</option>
+					<option value="2">MOD_VIEWMYJSPACE_TRIEMODE_2</option>
+					<option value="3">MOD_VIEWMYJSPACE_TRIEMODE_3</option>
+					<option value="4">MOD_VIEWMYJSPACE_TRIEMODE_4</option>
+					<option value="5">MOD_VIEWMYJSPACE_TRIEMODE_5</option>
+					<option value="6">MOD_VIEWMYJSPACE_TRIEMODE_6</option>
+				</field>
+				<field name="emptymode" type="radio" default="0" label="MOD_VIEWMYJSPACE_EMPTYMODE_LABEL" description="MOD_VIEWMYJSPACE_EMPTYMODE_DESC" class="btn-group" >
+					<option value="0">MOD_VIEWMYJSPACE_NO</option>
+					<option value="1">MOD_VIEWMYJSPACE_YES</option>
+				</field>	
+				<field name="nonvisiblemode" type="radio" default="0" label="MOD_VIEWMYJSPACE_NONVISIBLEMODE_LABEL" description="MOD_VIEWMYJSPACE_NONVISIBLEMODE_DESC" class="btn-group">
+					<option value="0">MOD_VIEWMYJSPACE_NO</option>
+					<option value="1">MOD_VIEWMYJSPACE_YES</option>
+				</field>		
+				<field type="text" name="delais" size="6" default="604800" label="MOD_VIEWMYJSPACE_DELAIS_LABEL" description="MOD_VIEWMYJSPACE_DELAIS_DESC" />
+				<field type="text" name="affmax" size="4" default="20" label="MOD_VIEWMYJSPACE_AFFMAX_LABEL" description="MOD_VIEWMYJSPACE_AFFMAX_DESC" />
+				<field type="radio" name="use_com_acl" default="0" label="MOD_VIEWMYJSPACE_USE_COM_ACL_LABEL" description="MOD_VIEWMYJSPACE_USE_COM_ACL_DESC" class="btn-group">
+					<option value="0">MOD_VIEWMYJSPACE_NO</option>
+					<option value="1">MOD_VIEWMYJSPACE_YES</option>
+				</field>				
+				<field type="text" name="catid_list" size="20" default="" label="MOD_VIEWMYJSPACE_CATID_LIST_LABEL" description="MOD_VIEWMYJSPACE_CATID_LIST_DESC" />
+			</fieldset>
+			
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field name="cachemode" type="hidden" default="itemid"> 
+					<option value="itemid"></option>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+
+</extension>

@@ -1,0 +1,284 @@
+/* 
+ * Name  :myjspace.css
+ * Author:Bernard Saulmé
+ * (C) Bernard Saulmé
+ */
+
+.myjspace {
+	font-size:11px;
+}
+
+.myjspace .width100 {
+	width:100%;
+}
+
+.myjspace .width95 {
+	width:95%;
+}
+
+.myjspace .width80 {
+	width:80%;
+}
+
+.myjspace .width20 {
+	width:20%;
+}
+
+.myjspace .width15 {
+	width:15%;
+}
+
+.myjspace .width10 {
+	width:10%;
+}
+
+.myjspace .width3 {
+	width:3%;
+}
+
+.myjspace .icon12 {
+	width:12px;
+	height:12px;
+	border:none;
+}
+
+.myjspace .icon16 {
+	width:16px;
+	height:16px;
+	border:none;
+}
+
+.myjspace td.nowrap, myjspace th.nowrap {
+	white-space:nowrap;
+}
+
+.myjspace legend {
+	font-weight:bold;
+}
+
+.myjspace select {
+	font-size:100%;
+}
+
+.myjspace .mjp-config,
+.myjspace .mjp-list{
+	min-width:80px;
+}
+
+.myjspace .mjp-list{
+	margin:2px 1px;
+}
+
+.myjspace .mjp-form-button,
+.myjspace .mjp-rss-feed {
+	text-align:right;
+	margin-bottom:10px;
+}
+
+.myjspace .myjspbtn {
+	min-width:60px;
+}
+
+.myjsp-upload  .progress_div,
+.myjspace .progress_div {
+	visibility:hidden;
+	padding-top:5px;
+}
+
+.myjspace table.admintable td {
+	padding-bottom:3px; padding-left:3px; padding-right:3px; padding-top:3px;
+	font-size:11px;
+}
+
+.myjspace table.admintable td input {
+	font-size:11px;
+}
+
+.myjspace table.admintable td.key {
+	border-bottom:#e9e9e9 1px solid; text-align:right; background-color:#f6f6f6;
+	width:150px; color:#666; font-weight:bold; border-right:#e9e9e9 1px solid;
+}
+
+.myjspace .table-striped tbody > tr:nth-child(odd) > td {
+	background-color:#f9f9f9;
+}
+
+.myjspace .table-striped tbody > tr:nth-child(odd) > th {
+	background-color:#eeeeee;
+}
+
+.myjspace legend {
+	font-size:12px; font-weight:bold;
+}
+
+.myjspace fieldset.adminform {
+	margin:0px 10px 10px;
+}
+
+.myjspace fieldset {
+	padding-bottom:5px; padding-left:5px; padding-right:5px; margin-bottom:10px;
+}
+
+.myjspace  fieldset.front{
+	border:#ccc 1px solid;
+	text-align:left;
+	padding:5px;
+}
+
+.myjspace  fieldset.front2{
+	text-align:left;
+	padding:5px;
+}
+
+.myjspace fieldset p {
+	margin:10px 0px;
+}
+
+.myjspace .bsfooter a {
+	padding:10px; width:75%; color:#dddddd;
+}
+
+.myjspace .alert {
+	color:red;
+}
+
+.myjspace-see .bsfooter a {
+	bottom:-100px; padding:10px; width:75%; color:#dddddd;
+}
+
+.myjspace-see #myjsp-iframe,
+.myjspace-see #cbprofile,
+.myjspace-see #jomsocial-profile,
+.myjspace-see #jomsocial-photos {
+	width:100%;
+	height:800px;
+}
+
+.myjspace-see ul.actions {
+	list-style-type:none;
+}
+
+.myjspace .noborder table {
+	border:none;
+}
+
+.myjspace .noborder tr {
+	border:none;
+}
+
+.myjspace .noborder td {
+	border:none;
+}
+
+#mjs_categories, #mjs_share {
+	min-width:100px;
+	max-width:300px;
+}
+
+.myjspace #catid {
+	width:100px;
+}
+
+.myjspace #mjs_sort {
+	width:130px;
+}
+
+.myjspace #delete_file,
+.myjsp-upload #delete_file,
+.myjsp-upload #select_file  {
+	width:160px;
+}
+
+.myjspace #mjs_username2 {
+	width:100px;
+}
+
+.myjspace_result_search .mjsp_search_tab td {
+	padding-left:3px; padding-right:3px;
+}
+
+.myjspace_result_search .mjsp_search_tab .img_preview  {
+	max-width:70px;
+	max-height:70px;
+}
+
+.myjspace_result_search .mjsp_search_tab .mjsp_search_img { 
+	text-align:center;
+}
+
+.mjsp_search_row_field  img  {
+	max-width:70px;
+	max-height:70px;
+}
+
+.myjspace .toggle-editor  {
+	visibility:hidden;
+	display:none;
+}
+
+/* list pagination */
+.myjspace  .list-footer {
+	padding:5px;
+}
+
+.myjspace .list-footer .pagenav {
+	color:#999999;
+	background-color:#ffffff;
+}
+
+.myjspace  .limit {
+	padding-left:10px;
+}
+
+.myjspace .list-footer ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	display:inline;
+}
+
+.myjspace .list-footer li {
+	float:left; /* IE*/
+	list-style-type:none;
+	text-align:center;
+	min-width:19px;
+}
+
+ .myjspace .list-footer ul li a {
+	display:block;
+	float:left;   
+	min-width:15px;
+	text-decoration:none;
+	text-align:center;
+	border:1px solid;
+	/* "outset" avec IE */
+	border-color:#dcdcdc #696969 #696969 #dcdcdc;
+}
+
+.myjspace .list-footer .counter {
+	padding:4px;
+	display:none;
+}
+
+div.myjsp-w-45 {
+	width:45%;
+}
+
+div.myjsp-w-55 {
+	width:55%;
+}
+
+div.myjsp-w-100 {
+	width:100%;
+}
+
+div.myjsp-w-45 fieldset,
+div.myjsp-w-55 fieldset,
+div.myjsp-w-100 fieldset {
+	background-color:#ffffff;
+	padding:5px 17px 17px 17px;
+}
+
+div.myjsp-upload {
+	margin-left:12px;
+}

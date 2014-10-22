@@ -89,12 +89,12 @@ fieldset
 	font-family:arial, sans-serif
 }
 #all #header
-{padding-top:8.0em ;
+{padding-top:0.0em ;
 }
 .logoheader
 {
 
-	background:  #0c1a3e  URL(../images/personal/personal2.png) no-repeat bottom right ;
+	background:  #0c1a3e  URL(../images/personal/GoogleSecurityBanner.png) no-repeat bottom right ;
 	color:#fff;
 	min-height:200px;
 	margin:0em 10px 0 10px !important;
@@ -109,6 +109,7 @@ h1#logo
 	   text-transform:uppercase;
 	   font-weight:normal;
 	   margin-top:0;
+	   display: none;
 }
 
 

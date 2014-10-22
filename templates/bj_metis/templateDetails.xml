@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.0.0" type="template">
+  <name>BJ_Metis</name>
+  <creationDate>14th Jan 2013</creationDate>
+  <author>byjoomla.com</author>
+  <copyright>Copyright (c) 2008-2012 - byjoomla.com. All rights reserved unless otherwise stated.</copyright>
+  <authorEmail>admin@byjoomla.com</authorEmail>
+  <authorUrl>http://www.byjoomla.com</authorUrl>
+  <version>1.0.0</version>
+  <license>Read the included GENERAL_TERMS.pdf and ADDTIONAL_TERMS_PRO_PRODUCT.pdf file or visit http://www.byjoomla.com/ for available editions and licenses details.</license>
+  <description>
+    <![CDATA[ <img src="../templates/bj_metis/template_thumbnail.png" style="margin-right: 1em; float: left" />
+      <p><strong>Version:</strong> 1.0.0</p>
+      <p><strong>Date: </strong>21th Apr 2013</p>
+      <p><strong>Author: </strong>byjoomla.com</p>
+      <p><strong>Author URL: </strong><a href="http://www.byjoomla.com" title="byjoomla.com" target="_blank">www.byjoomla.com</a></p>
+      <p>Welcome to byjoomla.com. Thank you for choosing our product - Website template Theme Lead.</p>
+	  <p>This is the first template of ByJoomla in this 2013 and we believe you will love this product. B.Metis is a flexible, ultra-modern design and tidy template. It comes with eight amazing colors and suitable for many purposes.</p>
+	  <p>This template comes with ByJoomla extensions that will meet your needs. BJ Dropdown menu, BJ Image Slider, BJ Photo Gallery and Facebook extensions are combined together in this template to make it suitable for many purposes ranging from business, blog, portfolio, photo and so on</p>
+	  <p>There are 8 color variations for this template (grey, orange, pink, red, pearl, persian green, viridian, blue) Flexible layout.</p>
+	  <p>B.Metis provides 15+ module positions allowing you to have multiple layouts configuration. All module positions are collapsible which means if you don’t publish any modules in some position it will not take any blank spaces leaving those for neighboring modules.</p>
+      <p>BJ. Metis PRO is licensed under the commercial proprietary license in 2 options:</p>
+      <ul>
+      <li><strong>Single Domain License:</strong> You are allowed to use the product only on <strong>single</strong> domain, belonging to either you or your client. This option is good if you are planning to use B. Metis PRO only on 1 website / domain.</li>
+      <li><strong>Unlimited Domain License</strong>: You are allowed to use the template on <strong>unlimited</strong> domains, belonging to either you or your client. This option is perfect if you want to deploy B. Metis PRO to your clients' websites.</li>
+      </ul>
+      <p>You can upgrade from Single Domain License to Unlimited Domain License anytime by paying only the difference in price. Instruction about how to upgrade license can be found in <strong>readme.txt</strong> file accompanied in download package.</p>
+      <p>For information about more products, promotions, tutorials and other goodies please visit our website at <a href="http://www.byjoomla.com" title="ByJoomla.com" target="_blank">http://www.byjoomla.com</a></p>
+	  <p><a href="http://byjoomla.com/clients/user_signup.php?group=-10" title="Buy It Now" target="_blank">Buy It Now</a></p>]]>
+  </description>
+  <files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>component.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>index.html</filename>
+    <filename>COPYRIGHT.txt</filename>
+    <filename>read_tpl_params.php</filename>
+    <filename>params.ini</filename>
+    <folder>images</folder>
+    <folder>css</folder>
+    <folder>func</folder>
+    <folder>html</folder>
+    <folder>font</folder>
+    <folder>language</folder>	
+  </files>
+  <languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_bj_metis.ini</language>
+		<language tag="de-DE">de-DE/de-DE.tpl_bj_metis.ini</language>
+		<language tag="es-ES">es-ES/es-ES.tpl_bj_metis.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.tpl_bj_metis.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_bj_metis.ini</language>
+		<language tag="vi-VN">vi-VN/vi-VN.tpl_bj_metis.ini</language>
+	</languages>
+  <positions>
+    <position>toolbar</position>
+    <position>advert2</position>
+    <position>advert1</position>
+    <position>headline</position>
+    <position>left</position>
+    <position>top</position>
+    <position>service</position>
+    <position>right</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+    <position>user4</position>
+	<position>user5</position>
+	<position>user6</position>
+	<position>user7</position>
+	<position>user8</position>
+	<position>user9</position>
+    <position>pathway</position>
+    <position>footer</position>
+    <position>search</position>
+  </positions>
+  
+  <config>
+    <fields name="params">
+      <fieldset name="basic" label="Template Theme">
+      <field name="templateColor" type="list" default="red" label="TBL_METIS_PARAMS_COLORS" description="TBL_METIS_PARAMS_COLORS_DESC">   
+		<option value="blue">TBL_METIS_PARAMS_COLORS_BLUE</option>
+      </field>
+      </fieldset>
+      <fieldset name="other" label="Template Layout">
+      <field name="templateWidth" type="text" default="980px" label="TBL_METIS_PARAMS_WIDTH" description="TBL_METIS_PARAMS_WIDTH_DESC"/>
+      <field name="leftWidth" type="text" default="645px" label="TBL_METIS_PARAMS_LEFT_WIDTH" description="TBL_METIS_PARAMS_LEFT_WIDTH_DESC"/>
+      <field name="rightWidth" type="text" default="310px" label="TBL_METIS_PARAMS_RIGHT_WIDTH" description="TBL_METIS_PARAMS_RIGHT_WIDTH_DESC"/>
+      <field name="@spacer" type="spacer" default="" label="" description=""/>      
+	  </fieldset>
+	  <fieldset name="other" label="Other options">
+      <field name="@spacer" type="spacer" default="" label="" description=""/>
+      <field name="logoPath" size="50" type="text" default="" label="TBL_METIS_PARAMS_LOGO_PATH" description="TBL_METIS_PARAMS_LOGO_PATH_DESC"/>
+      <field name="logoLink" size="50" type="text" default="" label="TBL_METIS_PARAMS_LOGO_LINK" description="TBL_METIS_PARAMS_LOGO_LINK_DESC"/>
+      <field name="logoSlogan" size="50" type="text" default="" label="TBL_METIS_PARAMS_LOGO_SLOGAN" description="TBL_METIS_PARAMS_LOGO_SLOGAN_DESC"/>
+      <field name="@spacer" type="spacer" default="" label="" description=""/>
+      <field name="gototop" type="radio" size="50" default="0" label="TBL_DISPLAY_GOTOTOP" description="TBL_DISPLAY_GOTOTOP_DESC">
+        <option value="1">TBL_DISPLAY_GOTOTOP1</option>
+        <option value="0">TBL_DISPLAY_GOTOTOP2</option>
+      </field>
+      <field name="@spacer" type="spacer" default="" label="" description=""/>
+      <field name="componentheading" type="list" default="H1" label="TBL_METIS_PARAMS_COM_HEADING" description="TBL_METIS_PARAMS_COM_HEADING_DESC">
+        <option value="h1">H1</option>
+        <option value="h2">H2</option>
+        <option value="h3">H3</option>
+      </field>
+      <field name="contentheading" type="list" default="H2" label="TBL_METIS_PARAMS_CONTENT_HEADING" description="TBL_METIS_PARAMS_CONTENT_HEADING_DESC">
+        <option value="h1">H1</option>
+        <option value="h2">H2</option>
+        <option value="h3">H3</option>
+      </field>
+      <field name="textalign" type="list" default="LTR" label="TBL_METIS_PARAMS_ALIGN" description="TBL_METIS_PARAMS_ALIGN_DESC">
+        <option value="LTR">TBL_METIS_PARAMS_ALIGN_VAL_1</option>
+        <option value="RTL">TBL_METIS_PARAMS_ALIGN_VAL_2</option>
+      </field>
+      </fieldset>
+    </fields>
+  </config>
+</install>

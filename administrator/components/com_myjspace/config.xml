@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+   		<param type="hidden" name="foldername" default="myjsp" />
+			
+		<param type="spacer" default="Theses options control the global configuration for the personal pages." />
+		
+   		<param type="text" name="nb_max_page" size="2" default="1" label="COM_MYJSPACE_ADMIN_PAGE_NB_MAX_PAGE_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_NB_MAX_PAGE_DESC" />
+		<param name="pagetitle" type="list" default="1" label="COM_MYJSPACE_ADMIN_PAGETITLE_LABEL" description="COM_MYJSPACE_ADMIN_PAGETITLE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="pageauthor" type="list" default="1" label="COM_MYJSPACE_ADMIN_EDITOR_PAGEAUTHOR_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_PAGEAUTHOR_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+   		<param type="text" name="pagedescription" size="80" default="" label="COM_MYJSPACE_ADMIN_PAGEDESCRIPTION_LABEL" description="COM_MYJSPACE_ADMIN_PAGEDESCRIPTION_DESC" />
+		<param name="pagebreak_num" type="list" default="1" label="COM_MYJSPACE_ADMIN_DISPLAY_PAGEBREAK_NUM_LABEL" description="COM_MYJSPACE_ADMIN_DISPLAY_PAGEBREAK_NUM_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="link_folder" type="list" default="1" label="COM_MYJSPACE_ADMIN_LINK_FOLDER_LABEL" description="COM_MYJSPACE_ADMIN_LINK_FOLDER_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="link_folder_print" type="list" default="0" label="COM_MYJSPACE_ADMIN_LINK_FOLDER_PRINT_LABEL" description="COM_MYJSPACE_ADMIN_LINK_FOLDER_PRINT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_LINK_FOLDER_0</option>
+			<option value="1">COM_MYJSPACE_ADMIN_LINK_FOLDER_1</option>
+		</param>
+   		<param type="text" name="foldername_redirect_url" size="80" default="index.php" label="COM_MYJSPACE_ADMIN_FOLDERNAME_REDIRECT_URL_LABEL" description="COM_MYJSPACE_ADMIN_FOLDERNAME_REDIRECT_URL_DESC" />
+		<param name="show_link_admin" type="list" default="1" label="COM_MYJSPACE_SHOW_LINK_ADMIN_LABEL" description="COM_MYJSPACE_SHOW_LINK_ADMIN_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>		
+		<param name="index_pagename_id" type="list" default="1" label="COM_MYJSPACE_ADMIN_INDEX_PAGENAME_ID_LABEL" description="COM_MYJSPACE_ADMIN_INDEX_PAGENAME_ID_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="user_mode_view" type="list" default="1" label="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_LABEL" description="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="user_mode_view_default" type="list" default="1" label="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_DEFAULT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_USER_MODE_VIEW1</option>
+			<option value="1">COM_MYJSPACE_ADMIN_USER_MODE_VIEW0</option>
+			<option value="2">COM_MYJSPACE_ADMIN_USER_MODE_VIEW2</option>
+		</param>
+		<param name="lock_page_after_update" type="list" default="0" label="COM_MYJSPACE_ADMIN_LOCK_PAGE_AFTER_UPDATE_LABEL" description="COM_MYJSPACE_ADMIN_LOCK_PAGE_AFTER_UPDATE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="user_mode_edit_default" type="list" default="0" label="COM_MYJSPACE_ADMIN_USER_MODE_EDIT_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_USER_MODE_EDIT_DEFAULT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_USER_MODE_EDIT0</option>
+			<option value="1">COM_MYJSPACE_ADMIN_USER_MODE_EDIT1</option>
+			<option value="2">COM_MYJSPACE_ADMIN_USER_MODE_EDIT2</option>
+		</param>
+		<param name="publish_mode" type="list" default="2" label="COM_MYJSPACE_ADMIN_PUBLISH_MODE_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_PUBLISH_MODE_DEFAULT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_PUBLISH_MODE0</option>
+			<option value="1">COM_MYJSPACE_ADMIN_PUBLISH_MODE1</option>
+			<option value="2">COM_MYJSPACE_ADMIN_PUBLISH_MODE2</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+   		<param type="text" name="name_page_max_size" size="20" default="92160" label="COM_MYJSPACE_ADMIN_NAME_PAGE_MAX_SIZE_LABEL" description="COM_MYJSPACE_ADMIN_NAME_PAGE_MAX_SIZE_DESC" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="pagename_username" type="list" default="0" label="COM_MYJSPACE_ADMIN_PAGE_PAGENAME_USERNAME_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_PAGENAME_USERNAME_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+   		<param type="text" name="auto_pagename_rule" size="20" default="#username" label="COM_MYJSPACE_ADMIN_AUTO_PAGENAME_RULE_LABEL" description="COM_MYJSPACE_ADMIN_AUTO_PAGENAME_RULE_DESC" />
+		<param name="url_separ_word" type="list" default="_" label="COM_MYJSPACE_ADMIN_URL_SEPAR_WORD_LABEL" description="COM_MYJSPACE_ADMIN_URL_SEPAR_WORD_DESC" >
+			<option value="-">-</option>
+			<option value="_">_</option>
+		</param>
+		<param name="auto_create_page" type="list" default="3" label="COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE1</option>
+			<option value="2">COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE2</option>
+			<option value="3">COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE3</option>
+		</param>
+		<param name="new_page_rview" type="list" default="config" label="COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_DESC" >
+			<option value="config">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_CONFIG</option>
+			<option value="edit">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_EDIT</option>
+		</param>
+		<param name="copy_page_rview" type="list" default="config" label="COM_MYJSPACE_ADMIN_PAGE_COPY_PAGE_RVIEW_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_COPY_PAGE_RVIEW_DESC" >
+			<option value="config">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_CONFIG</option>
+			<option value="edit">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_EDIT</option>
+		</param>
+  		<param type="text" name="url_login_redirect" size="80" default="" label="COM_MYJSPACE_ADMIN_URL_LOGIN_REDIRECT_LABEL" description="COM_MYJSPACE_ADMIN_URL_LOGIN_REDIRECT_DESC" />
+   		<param type="text" name="name_page_size_min" size="2" default="0" label="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MIN_LABEL" description="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MIN_DESC" />
+   		<param type="text" name="name_page_size_max" size="2" default="20" label="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MAX_LABEL" description="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MAX_DESC" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+   		<param type="text" name="page_prefix" size="80" default="" label="COM_MYJSPACE_ADMIN_PAGE_PREFIX_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_PREFIX_DESC" />
+   		<param type="text" name="page_suffix" size="80" default="#bsmyjspace" label="COM_MYJSPACE_ADMIN_PAGE_SUFFIX_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_SUFFIX_DESC" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="page_increment" type="list" default="1" label="COM_MYJSPACE_ADMIN_PAGE_INCREMENT_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_INCREMENT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+   		<param type="text" name="model_pagename" size="80" default="" label="COM_MYJSPACE_ADMINMODEL_PAGENAME_LABEL" description="COM_MYJSPACE_ADMINMODEL_PAGENAME_DESC" />
+   		<param type="text" name="template_list" size="80" default="" label="COM_MYJSPACE_ADMIN_TEMPLATE_LIST_LABEL" description="COM_MYJSPACE_ADMIN_TEMPLATE_LIST_DESC" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="email_admin" type="list" default="0" label="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="email_user" type="list" default="0" label="COM_MYJSPACE_ADMIN_EMAIL_USER_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_USER_LABEL" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+   		<param type="text" name="email_admin_from" size="20" default="" label="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_FROM_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_FROM_DESC" />
+   		<param type="text" name="email_admin_to" size="20" default="" label="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_TO_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_TO_DESC" />		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="add_lightbox" type="list" default="1" label="COM_MYJSPACE_ADMIN_ADD_LIGHTBOX_LABEL" description="COM_MYJSPACE_ADMIN_ADD_LIGHTBOX_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="allow_plugin" type="list" default="1" label="COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_LABEL" description="COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_YES_CONTENT</option>
+			<option value="2">COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_YES_CONTENT_OTHER</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="allowcheckversion" type="list" default="1" label="COM_MYJSPACE_ADMIN_ALLOWCHECKVERSION_LABEL" description="COM_MYJSPACE_ADMIN_ALLOWCHECKVERSION_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="display_myjspace_ref" type="list" default="1" label="COM_MYJSPACE_ADMIN_DISPLAY_MYJSPACE_REF_LABEL" description="COM_MYJSPACE_ADMIN_DISPLAY_MYJSPACE_REF_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+
+		<param name="@spacer" type="spacer" />
+		<param type="spacer" default="These options control the view of the personal page article editing." />
+
+		<param name="icon_edit_view_see" type="list" default="2" label="COM_MYJSPACE_ADMIN_ICON_EDIT_VIEW_SEE_LABEL" description="COM_MYJSPACE_ADMIN_ICON_EDIT_VIEW_SEE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="2">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="editor_selection" type="editors" default="myjsp" label="COM_MYJSPACE_ADMIN_EDITOR_CHOICE_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_CHOICE_DESC" />
+   		<param type="text" name="user_edit_x" size="5" default="100%" label="COM_MYJSPACE_ADMIN_USER_EDIT_X_LABEL" description="COM_MYJSPACE_ADMIN_USER_EDIT_X_DESC" />
+   		<param type="text" name="user_edit_y" size="5" default="600px" label="COM_MYJSPACE_ADMIN_USER_EDIT_Y_LABEL" description="COM_MYJSPACE_ADMIN_USER_EDIT_Y_DESC" />
+   		<param type="text" name="admin_edit_x" size="5" default="100%" label="COM_MYJSPACE_ADMIN_ADMIN_EDIT_X_LABEL" description="COM_MYJSPACE_ADMIN_ADMIN_EDIT_X_DESC" />
+   		<param type="text" name="admin_edit_y" size="5" default="400px" label="COM_MYJSPACE_ADMIN_ADMIN_EDIT_Y_LABEL" description="COM_MYJSPACE_ADMIN_ADMIN_EDIT_Y_DESC" />
+		<param name="allow_editor_button" type="list" default="1" label="COM_MYJSPACE_ADMIN_ALLOW_EDITOR_BUTTON_LABEL" description="COM_MYJSPACE_ADMIN_ALLOW_EDITOR_BUTTON_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="editor_bbcode" type="list" default="1" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+   		<param type="text" name="editor_bbcode_width" size="5" default="800" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_WIDTH_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_WIDTH_DESC" />
+   		<param type="text" name="editor_bbcode_height" size="5" default="" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_HEIGHT_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_HEIGHT_DESC" />
+		<param name="editor_bbcode_register" type="list" default="0" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_REGISTER_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_REGISTER_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="allow_user_content_var" type="list" default="1" label="COM_MYJSPACE_ADMIN_ALLOW_USER_CONTENT_VAR_LABEL" description="COM_MYJSPACE_ADMIN_ALLOW_USER_CONTENT_VAR_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="allow_tag_myjsp_iframe" type="list" default="2" label="COM_MYJSPACE_ADMIN_TAG_MYSP_IFRAME_LABEL" description="COM_MYJSPACE_ADMIN_TAG_MYSP_IFRAME_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			<option value="2">COM_MYJSPACE_ADMIN_TAG_MYSP_IFRAME_2</option>
+		</param>
+		<param name="allow_tag_myjsp_include" type="list" default="2" label="COM_MYJSPACE_ADMIN_TAG_MYSP_INCLUDE_LABEL" description="COM_MYJSPACE_ADMIN_TAG_MYSP_INCLUDE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			<option value="2">COM_MYJSPACE_ADMIN_TAG_MYSP_INCLUDE_2</option>
+		</param>
+   		<param type="text" name="tag_mysp_file_separ" filter="raw" size="20" default=" " label="COM_MYJSPACE_ADMIN_TAG_MYSP_FILE_SEPAR_LABEL" description="COM_MYJSPACE_ADMIN_TAG_MYSP_FILE_SEPAR_DESC" />
+
+		<param name="@spacer" type="spacer" />
+		<param type="spacer" default="These options control the upload configuration." />
+
+		<param name="uploadimg" type="list" default="1" label="COM_MYJSPACE_ADMIN_UPLOADIMG_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADIMG_DESC">
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="uploadmedia" type="list" default="1" label="COM_MYJSPACE_ADMIN_UPLOADMEDIA_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADMEDIA_DESC">
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+		<param name="uploadadmin" type="list" default="1" label="COM_MYJSPACE_ADMIN_UPLOADADMIN_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADADMIN_DESC">
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>
+   		<param type="text" name="uploadfile" size="20" default="*" label="COM_MYJSPACE_ADMIN_UPLOADFILE_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADFILE_DESC" />		
+   		<param type="text" name="file_max_size" size="20" default="307200" label="COM_MYJSPACE_ADMIN_FILE_MAX_SIZE_LABEL" description="COM_MYJSPACE_ADMIN_FILE_MAX_SIZE_DESC" />
+   		<param type="text" name="dir_max_size" size="20" default="2097152" label="COM_MYJSPACE_ADMIN_DIR_MAX_SIZE_LABEL" description="COM_MYJSPACE_ADMIN_DIR_MAX_SIZE_DESC" />
+   		<param type="text" name="resize_x" size="4" default="800" label="COM_MYJSPACE_ADMIN_RESIZEX_LABEL" description="COM_MYJSPACE_ADMIN_RESIZEX_DESC" />		
+   		<param type="text" name="resize_y" size="4" default="600" label="COM_MYJSPACE_ADMIN_RESIZEY_LABEL" description="COM_MYJSPACE_ADMIN_RESIZEY_DESC" />		
+		<param name="downloadimg" type="list" default="1" label="COM_MYJSPACE_ADMIN_DOWNLOADIMG_LABEL" description="COM_MYJSPACE_ADMIN_DOWNLOADIMG_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</param>		
+	</params>
+
+	<fieldset name="configuration" label="COM_MYJSPACE_FIELDSET_CONFIG_CONFIGURATION_OPTIONS_LABEL" description="COM_MYJSPACE_FIELDSET_CONFIG_CONFIGURATION_OPTIONS_DESC" >
+   		<field name="foldername" type="hidden" default="myjsp" />
+		
+   		<field type="text" name="nb_max_page" size="2" default="1" label="COM_MYJSPACE_ADMIN_PAGE_NB_MAX_PAGE_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_NB_MAX_PAGE_DESC" />
+   		<field type="text" name="nb_max_page_category" size="2" default="0" label="COM_MYJSPACE_ADMIN_PAGE_NB_MAX_PAGE_CATEGORY_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_NB_MAX_PAGE_CATEGORY_DESC" />
+		<field type="spacer" hr="true" />
+		<field name="pagetitle" type="radio" default="1" label="COM_MYJSPACE_ADMIN_PAGETITLE_LABEL" description="COM_MYJSPACE_ADMIN_PAGETITLE_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="pageauthor" type="radio" default="1" label="COM_MYJSPACE_ADMIN_EDITOR_PAGEAUTHOR_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_PAGEAUTHOR_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+   		<field type="text" name="pagedescription" size="80" default="" label="COM_MYJSPACE_ADMIN_PAGEDESCRIPTION_LABEL" description="COM_MYJSPACE_ADMIN_PAGEDESCRIPTION_DESC" />
+		<field name="pagebreak_num" type="radio" default="1" label="COM_MYJSPACE_ADMIN_DISPLAY_PAGEBREAK_NUM_LABEL" description="COM_MYJSPACE_ADMIN_DISPLAY_PAGEBREAK_NUM_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+
+		<field name="link_folder" type="radio" default="1" label="COM_MYJSPACE_ADMIN_LINK_FOLDER_LABEL" description="COM_MYJSPACE_ADMIN_LINK_FOLDER_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="link_folder_print" type="list" default="0" label="COM_MYJSPACE_ADMIN_LINK_FOLDER_PRINT_LABEL" description="COM_MYJSPACE_ADMIN_LINK_FOLDER_PRINT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_LINK_FOLDER_0</option>
+			<option value="1">COM_MYJSPACE_ADMIN_LINK_FOLDER_1</option>
+		</field>
+   		<field type="text" name="foldername_redirect_url" size="80" default="index.php" label="COM_MYJSPACE_ADMIN_FOLDERNAME_REDIRECT_URL_LABEL" description="COM_MYJSPACE_ADMIN_FOLDERNAME_REDIRECT_URL_DESC" />
+		<field name="show_link_admin" type="radio" default="1" label="COM_MYJSPACE_SHOW_LINK_ADMIN_LABEL" description="COM_MYJSPACE_SHOW_LINK_ADMIN_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="index_pagename_id" type="radio" default="1" label="COM_MYJSPACE_ADMIN_INDEX_PAGENAME_ID_LABEL" description="COM_MYJSPACE_ADMIN_INDEX_PAGENAME_ID_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>		
+		
+		<field name="user_mode_view" type="radio" default="1" label="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_LABEL" description="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="user_mode_view_acl" type="radio" default="0" label="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_ACL_LABEL" description="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_ACL_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="user_mode_view_default" type="list" default="1" label="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_USER_MODE_VIEW_DEFAULT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_USER_MODE_VIEW1</option>
+			<option value="1">COM_MYJSPACE_ADMIN_USER_MODE_VIEW0</option>
+			<option value="2">COM_MYJSPACE_ADMIN_USER_MODE_VIEW2</option>
+		</field>
+		<field name="lock_page_after_update" type="radio" default="0" label="COM_MYJSPACE_ADMIN_LOCK_PAGE_AFTER_UPDATE_LABEL" description="COM_MYJSPACE_ADMIN_LOCK_PAGE_AFTER_UPDATE_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="user_mode_edit_default" type="list" default="0" label="COM_MYJSPACE_ADMIN_USER_MODE_EDIT_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_USER_MODE_EDIT_DEFAULT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_USER_MODE_EDIT0</option>
+			<option value="1">COM_MYJSPACE_ADMIN_USER_MODE_EDIT1</option>
+			<option value="2">COM_MYJSPACE_ADMIN_USER_MODE_EDIT2</option>
+		</field>
+		<field name="share_page" type="list" default="0" label="COM_MYJSPACE_ADMIN_SHARE_PAGE_LABEL" description="COM_MYJSPACE_ADMIN_SHARE_PAGE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_SHARE_PAGE0</option>
+			<option value="1">COM_MYJSPACE_ADMIN_SHARE_PAGE1</option>
+			<option value="2">COM_MYJSPACE_ADMIN_SHARE_PAGE2</option>
+		</field>
+		<field name="publish_mode" type="list" default="2" label="COM_MYJSPACE_ADMIN_PUBLISH_MODE_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_PUBLISH_MODE_DEFAULT_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_PUBLISH_MODE0</option>
+			<option value="1">COM_MYJSPACE_ADMIN_PUBLISH_MODE1</option>
+			<option value="2">COM_MYJSPACE_ADMIN_PUBLISH_MODE2</option>
+		</field>
+   		<field type="text" name="name_page_max_size" size="20" default="92160" label="COM_MYJSPACE_ADMIN_NAME_PAGE_MAX_SIZE_LABEL" description="COM_MYJSPACE_ADMIN_NAME_PAGE_MAX_SIZE_DESC" />
+		<field name="pagename_username" type="radio" default="0" label="COM_MYJSPACE_ADMIN_PAGE_PAGENAME_USERNAME_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_PAGENAME_USERNAME_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+   		<field type="text" name="auto_pagename_rule" size="20" default="#username" label="COM_MYJSPACE_ADMIN_AUTO_PAGENAME_RULE_LABEL" description="COM_MYJSPACE_ADMIN_AUTO_PAGENAME_RULE_DESC" />
+		<field name="url_separ_word" type="list" default="_" label="COM_MYJSPACE_ADMIN_URL_SEPAR_WORD_LABEL" description="COM_MYJSPACE_ADMIN_URL_SEPAR_WORD_DESC" >
+			<option value="-">-</option>
+			<option value="_">_</option>
+		</field>
+		<field name="auto_create_page" type="list" default="3" label="COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE1</option>
+			<option value="2">COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE2</option>
+			<option value="3">COM_MYJSPACE_ADMIN_PAGE_AUTO_CREATE_PAGE3</option>
+		</field>
+		<field name="new_page_rview" type="list" default="config" label="COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_DESC" >
+			<option value="config">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_CONFIG</option>
+			<option value="edit">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_EDIT</option>
+		</field>
+		<field name="copy_page_rview" type="list" default="config" label="COM_MYJSPACE_ADMIN_PAGE_COPY_PAGE_RVIEW_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_COPY_PAGE_RVIEW_DESC" >
+			<option value="config">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_CONFIG</option>
+			<option value="edit">COM_MYJSPACE_ADMIN_PAGE_NEW_PAGE_RVIEW_EDIT</option>
+		</field>
+
+   		<field type="text" name="url_login_redirect" size="80" default="" label="COM_MYJSPACE_ADMIN_URL_LOGIN_REDIRECT_LABEL" description="COM_MYJSPACE_ADMIN_URL_LOGIN_REDIRECT_DESC" />
+  		<field type="text" name="name_page_size_min" size="2" default="0" label="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MIN_LABEL" description="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MIN_DESC" />
+   		<field type="text" name="name_page_size_max" size="2" default="20" label="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MAX_LABEL" description="COM_MYJSPACE_ADMIN_NAME_PAGE_SIZE_MAX_DESC" />
+
+   		<field type="text" name="page_prefix" filter="raw" size="80" default="" label="COM_MYJSPACE_ADMIN_PAGE_PREFIX_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_PREFIX_DESC" />
+   		<field type="text" name="page_suffix" filter="raw" size="80" default="#bsmyjspace" label="COM_MYJSPACE_ADMIN_PAGE_SUFFIX_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_SUFFIX_DESC" />
+
+		<field name="page_increment" type="radio" default="1" label="COM_MYJSPACE_ADMIN_PAGE_INCREMENT_LABEL" description="COM_MYJSPACE_ADMIN_PAGE_INCREMENT_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+
+   		<field type="text" name="model_pagename" size="80" default="" label="COM_MYJSPACE_ADMINMODEL_PAGENAME_LABEL" description="COM_MYJSPACE_ADMINMODEL_PAGENAME_DESC" />
+   		<field type="text" name="template_list" size="80" default="" label="COM_MYJSPACE_ADMIN_TEMPLATE_LIST_LABEL" description="COM_MYJSPACE_ADMIN_TEMPLATE_LIST_DESC" />
+
+		<field name="language_filter" type="list" default="0" label="COM_MYJSPACE_LANGUAGE_FILTER_LABEL" description="COM_MYJSPACE_LANGUAGE_FILTER_DESC">
+			<option value="0">COM_MYJSPACE_LANGUAGE_FILTER_0</option>
+			<option value="1">COM_MYJSPACE_LANGUAGE_FILTER_1</option>
+			<option value="2">COM_MYJSPACE_LANGUAGE_FILTER_2</option>
+		</field>
+		<field name="show_tags" type="radio" default="0" label="COM_MYJSPACE_ADMIN_SHOW_TAGS_LABEL" description="COM_MYJSPACE_ADMIN_SHOW_TAGS_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		
+		<field type="spacer" hr="true" />
+
+		<field name="email_admin" type="radio" default="0" label="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="email_user" type="radio" default="0" label="COM_MYJSPACE_ADMIN_EMAIL_USER_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_USER_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+   		<field type="text" name="email_admin_from" size="20" default="" label="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_FROM_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_FROM_DESC" />
+   		<field type="text" name="email_admin_to" size="20" default="" label="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_TO_LABEL" description="COM_MYJSPACE_ADMIN_EMAIL_ADMIN_TO_DESC" />	
+		<field type="spacer" hr="true" />
+
+		<field name="default_catid" type="category" extension="com_myjspace" show_root="true" default="" label="COM_MYJSPACE_ADMIN_DEFAULT_CATID_LABEL" description="COM_MYJSPACE_ADMIN_DEFAULT_CATID_DESC" />
+		<field name="select_category" type="radio" default="1" label="COM_MYJSPACE_ADMIN_SELECT_CATEGORY_LABEL" description="COM_MYJSPACE_ADMIN_SELECT_CATEGORY_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+
+		<field type="spacer" hr="true" />
+				
+		<field name="add_lightbox" type="radio" default="1" label="COM_MYJSPACE_ADMIN_ADD_LIGHTBOX_LABEL" description="COM_MYJSPACE_ADMIN_ADD_LIGHTBOX_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		
+		<field name="allow_plugin" type="list" default="1" label="COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_LABEL" description="COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_YES_CONTENT</option>
+			<option value="2">COM_MYJSPACE_ADMIN_ALLOW_PLUGIN_YES_CONTENT_OTHER</option>
+		</field>
+
+		<field name="allowcheckversion" type="radio" default="1" label="COM_MYJSPACE_ADMIN_ALLOWCHECKVERSION_LABEL" description="COM_MYJSPACE_ADMIN_ALLOWCHECKVERSION_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+
+		<field name="display_myjspace_ref" type="radio" default="1" label="COM_MYJSPACE_ADMIN_DISPLAY_MYJSPACE_REF_LABEL" description="COM_MYJSPACE_ADMIN_DISPLAY_MYJSPACE_REF_DESC" class="btn-group">
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+
+		<field name="uninstall_tables" type="radio" default="0" label="COM_MYJSPACE_ADMIN_UNINSTALL_TABLES_LABEL" description="COM_MYJSPACE_ADMIN_UNINSTALL_TABLES_DESC" class="btn-group">
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+	</fieldset>
+
+	<fieldset name="editor" label="COM_MYJSPACE_FIELDSET_CONFIG_EDITOR_OPTIONS_LABEL" description="COM_MYJSPACE_FIELDSET_CONFIG_EDITOR_OPTIONS_DESC" >
+  		<field name="icon_edit_view_see" type="list" default="2" label="COM_MYJSPACE_ADMIN_ICON_EDIT_VIEW_SEE_LABEL" description="COM_MYJSPACE_ADMIN_ICON_EDIT_VIEW_SEE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="2">COM_MYJSPACE_ADMIN_ICON_EDIT_VIEW_SEE_YES25</option>
+			<option value="1">COM_MYJSPACE_ADMIN_ICON_EDIT_VIEW_SEE_YES35</option>
+		</field>
+		<field type="spacer" hr="true" />
+		<field name="editor_selection" type="plugins" folder="editors" default="myjsp" label="COM_MYJSPACE_ADMIN_EDITOR_CHOICE_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_CHOICE_DESC" >
+ 		<field type="text" name="user_edit_x" size="5" default="100%" label="COM_MYJSPACE_ADMIN_USER_EDIT_X_LABEL" description="COM_MYJSPACE_ADMIN_USER_EDIT_X_DESC" />
+   		<field type="text" name="user_edit_y" size="5" default="600px" label="COM_MYJSPACE_ADMIN_USER_EDIT_Y_LABEL" description="COM_MYJSPACE_ADMIN_USER_EDIT_Y_DESC" />
+   		<field type="text" name="admin_edit_x" size="5" default="100%" label="COM_MYJSPACE_ADMIN_ADMIN_EDIT_X_LABEL" description="COM_MYJSPACE_ADMIN_ADMIN_EDIT_X_DESC" />
+   		<field type="text" name="admin_edit_y" size="5" default="400px" label="COM_MYJSPACE_ADMIN_ADMIN_EDIT_Y_LABEL" description="COM_MYJSPACE_ADMIN_ADMIN_EDIT_Y_DESC" />
+			<option value="-">JOPTION_USE_DEFAULT</option>
+		</field>			
+		<field name="allow_editor_button" type="radio" default="1" label="COM_MYJSPACE_ADMIN_ALLOW_EDITOR_BUTTON_LABEL" description="COM_MYJSPACE_ADMIN_ALLOW_EDITOR_BUTTON_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>		
+		<field type="spacer" hr="true" />
+		<field name="editor_bbcode" type="radio" default="1" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+   		<field type="text" name="editor_bbcode_width" size="5" default="800" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_WIDTH_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_WIDTH_DESC" />
+   		<field type="text" name="editor_bbcode_height" size="5" default="" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_HEIGHT_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_HEIGHT_DESC" />
+		<field name="editor_bbcode_register" type="radio" default="0" label="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_REGISTER_LABEL" description="COM_MYJSPACE_ADMIN_EDITOR_BBCODE_REGISTER_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field type="spacer" hr="true" />
+		<field name="allow_user_content_var" type="radio" default="1" label="COM_MYJSPACE_ADMIN_ALLOW_USER_CONTENT_VAR_LABEL" description="COM_MYJSPACE_ADMIN_ALLOW_USER_CONTENT_VAR_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="allow_tag_myjsp_iframe" type="list" default="2" label="COM_MYJSPACE_ADMIN_TAG_MYSP_IFRAME_LABEL" description="COM_MYJSPACE_ADMIN_TAG_MYSP_IFRAME_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			<option value="2">COM_MYJSPACE_ADMIN_TAG_MYSP_IFRAME_2</option>
+		</field>
+		<field name="allow_tag_myjsp_include" type="list" default="2" label="COM_MYJSPACE_ADMIN_TAG_MYSP_INCLUDE_LABEL" description="COM_MYJSPACE_ADMIN_TAG_MYSP_INCLUDE_DESC" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			<option value="2">COM_MYJSPACE_ADMIN_TAG_MYSP_INCLUDE_2</option>
+		</field>
+   		<field type="text" name="tag_mysp_file_separ" filter="raw" size="20" default=" " label="COM_MYJSPACE_ADMIN_TAG_MYSP_FILE_SEPAR_LABEL" description="COM_MYJSPACE_ADMIN_TAG_MYSP_FILE_SEPAR_DESC" />
+	</fieldset>
+
+	<fieldset name="upload_download" label="COM_MYJSPACE_FIELDSET_CONFIG_UPLOAD_OPTIONS_LABEL" description="COM_MYJSPACE_FIELDSET_CONFIG_UPLOAD_OPTIONS_DESC" >
+		<field name="uploadimg" type="radio" default="1" label="COM_MYJSPACE_ADMIN_UPLOADIMG_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADIMG_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="uploadmedia" type="radio" default="1" label="COM_MYJSPACE_ADMIN_UPLOADMEDIA_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADMEDIA_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+		<field name="uploadadmin" type="radio" default="1" label="COM_MYJSPACE_ADMIN_UPLOADADMIN_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADADMIN_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>
+   		<field type="text" name="uploadfile" size="20" default="*" label="COM_MYJSPACE_ADMIN_UPLOADFILE_LABEL" description="COM_MYJSPACE_ADMIN_UPLOADFILE_DESC" />		
+   		<field type="text" name="file_max_size" size="20" default="307200" label="COM_MYJSPACE_ADMIN_FILE_MAX_SIZE_LABEL" description="COM_MYJSPACE_ADMIN_FILE_MAX_SIZE_DESC" />
+   		<field type="text" name="dir_max_size" size="20" default="2097152" label="COM_MYJSPACE_ADMIN_DIR_MAX_SIZE_LABEL" description="COM_MYJSPACE_ADMIN_DIR_MAX_SIZE_DESC" />
+   		<field type="text" name="resize_x" size="4" default="800" label="COM_MYJSPACE_ADMIN_RESIZEX_LABEL" description="COM_MYJSPACE_ADMIN_RESIZEX_DESC" />		
+   		<field type="text" name="resize_y" size="4" default="600" label="COM_MYJSPACE_ADMIN_RESIZEY_LABEL" description="COM_MYJSPACE_ADMIN_RESIZEY_DESC" />		
+		<field name="downloadimg" type="radio" default="1" label="COM_MYJSPACE_ADMIN_DOWNLOADIMG_LABEL" description="COM_MYJSPACE_ADMIN_DOWNLOADIMG_DESC" class="btn-group" >
+			<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+			<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+		</field>	
+	</fieldset>
+	
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC" >
+		<field name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			validate="rules"
+			filter="rules"
+			component="com_myjspace"
+			section="component" />
+	</fieldset>
+
+</config>

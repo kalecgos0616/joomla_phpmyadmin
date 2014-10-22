@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Content - Pagebreak - MyJspace</name>
+	<creationDate>26/08/2014</creationDate>
+	<author>Bernard Saulme</author>
+	<authorEmail>bernard@wanadoo.fr</authorEmail>
+	<authorUrl>http://softs.saulme.fr/</authorUrl>
+	<copyright>Version by Bernard Saulme</copyright>
+	<license>GNU/GPL</license>
+	<version>2.4.2</version>
+	<build>101</build>
+	<description>PLG_CONTENT_PAGEBREAKMYJSPACE_XML_DESCRIPTION</description>
+	
+	<scriptfile>install.php</scriptfile>
+	
+	<files>
+		<filename plugin="pagebreakmyjspace">pagebreakmyjspace.php</filename>
+		<filename>index.html</filename>
+		<filename>COPYRIGHT.php</filename>
+		<folder>assets</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_content_pagebreakmyjspace.ini</language>
+		<language tag="en-GB">en-GB.plg_content_pagebreakmyjspace.sys.ini</language>
+		<language tag="fr-FR">fr-FR.plg_content_pagebreakmyjspace.ini</language>
+		<language tag="fr-FR">fr-FR.plg_content_pagebreakmyjspace.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="index_range_myjspace" type="radio" default="1" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_MYJSPACE_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_MYJSPACE_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="index_range_content" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_CONTENT_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_CONTENT_LABEL" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="2">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="index_range_k2itemlist" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_K2ITEMLIST_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_K2ITEMLIST_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="4">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="index_range_k2_item" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_K2_ITEM_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_K2_ITEM_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="8">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="index_range_zoo_item" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_ZOO_ITEM_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_ZOO_ITEM_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="16">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="index_range_flexicontent" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_FLEXICONTENT_ITEM_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_RANGE_FLEXICONTENT_ITEM_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="32">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="sh404sef_handler" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_SH404SEF_HANDLER_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_SH404SEF_HANDLER_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="title_suffix" type="radio" default="1" label="PLG_CONTENT_PAGEBREAKMYJSPACE_TITLE_SUFFIX_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_TITLE_SUFFIX_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="add_title_single" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_ADD_TITLE_SINGLE_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_ADD_TITLE_SINGLE_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="add_canonical_single" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_ADD_CANONICAL_SINGLE_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_ADD_CANONICAL_SINGLE_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="index_style" type="list" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_DESC">
+					<option value="99">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_99</option>
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_0</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_1</option>
+					<option value="2">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_2</option>
+					<option value="3">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_3</option>
+					<option value="4">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_4</option>
+					<option value="sliders">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_SLIDERS</option>
+					<option value="tabs">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_STYLE_TABS</option>
+				</field>
+				<field name="multipage_toc" type="list" default="1" label="PLG_CONTENT_PAGEBREAKMYJSPACE_TOC_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_TOC_DESC" >
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_TOC_INDEX</option>
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_TOC_PAGINATION</option>
+				</field>
+				<field name="index_position" type="list" default="inherit" label="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_POSITION_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_POSITION_DESC" >
+					<option value="inherit">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_POSITION_INHERIT</option>
+					<option value="left">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_POSITION_LEFT</option>
+					<option value="right">PLG_CONTENT_PAGEBREAKMYJSPACE_INDEX_POSITION_RIGHT</option>
+				</field>
+				<field name="arrow_position" type="list" default="inherit" label="PLG_CONTENT_PAGEBREAKMYJSPACE_ARROW_POSITION_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_ARROW_POSITION_DESC" >
+					<option value="none">PLG_CONTENT_PAGEBREAKMYJSPACE_ARROW_POSITION_NONE</option>
+					<option value="inherit">PLG_CONTENT_PAGEBREAKMYJSPACE_ARROW_POSITION_INHERIT</option>
+					<option value="left">PLG_CONTENT_PAGEBREAKMYJSPACE_ARROW_POSITION_LEFT</option>
+					<option value="right">PLG_CONTENT_PAGEBREAKMYJSPACE_ARROW_POSITION_RIGHT</option>
+					<option value="center">PLG_CONTENT_PAGEBREAKMYJSPACE_ARROW_POSITION_CENTER</option>
+				</field>
+				<field name="article_index" type="list" default="1" label="PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_ARTICLEINDEX_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_ARTICLEINDEX_DESC" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_ARTICLEINDEX_0</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_ARTICLEINDEX_1</option>
+					<option value="2">PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_ARTICLEINDEX_2</option>
+				</field>
+				<field name="article_index_text" type="text" default="Index" label="PLG_CONTENT_PAGEBREAKMYJSPACE_ARTICLE_INDEX_TEXT_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_ARTICLE_INDEX_TEXT_DESC" />
+				<field name="article_first_url" type="list" default="2" label="PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_FIRST_URL_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_FIRST_URL_DESC" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_FIRST_URL_0</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_FIRST_URL_1</option>
+					<option value="2">PLG_CONTENT_PAGEBREAKMYJSPACE_SITE_FIRST_URL_2</option>
+				</field>
+				<field name="article_first_url_text" type="text" default="Page 1" label="PLG_CONTENT_PAGEBREAKMYJSPACE_ARTICLE_FIRST_URL_TEXT_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_ARTICLE_FIRST_URL_TEXT_DESC" />
+				<field name="showall" type="radio" default="1" label="PLG_CONTENT_PAGEBREAKMYJSPACE_SHOW_ALL_DESC" description="PLG_CONTENT_PAGEBREAKMYJSPACE_SHOW_ALL_LABEL" class="btn-group" >
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field> 
+				<field name="default_showall" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_DEFAULT_SHOW_ALL_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_DEFAULT_SHOW_ALL_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="show_firstpagenum" type="radio" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_SHOW_FIRSTPAGENUM_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_SHOW_FIRSTPAGENUM_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="pagenavcounter" type="list" default="hide" label="PLG_CONTENT_PAGEBREAKMYJSPACE_PAGENAVCOUNTER_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_PAGENAVCOUNTER_DESC">
+					<option value="hide">PLG_CONTENT_PAGEBREAKMYJSPACE_PAGENAVCOUNTER_HIDE</option>
+					<option value="inherit">PLG_CONTENT_PAGEBREAKMYJSPACE_PAGENAVCOUNTER_INHERIT</option>
+					<option value="left">PLG_CONTENT_PAGEBREAKMYJSPACE_PAGENAVCOUNTER_LEFT</option>
+					<option value="right">PLG_CONTENT_PAGEBREAKMYJSPACE_PAGENAVCOUNTER_RIGHT</option>
+					<option value="arrows">PLG_CONTENT_PAGEBREAKMYJSPACE_PAGENAVCOUNTER_ARROWS</option>
+				</field>				
+				<field name="use_css" type="radio" default="1" label="PLG_CONTENT_PAGEBREAKMYJSPACE_USE_CSS_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_USE_CSS_DESC" class="btn-group" >
+					<option value="0">PLG_CONTENT_PAGEBREAKMYJSPACE_NO</option>
+					<option value="1">PLG_CONTENT_PAGEBREAKMYJSPACE_YES</option>
+				</field>
+				<field name="class_style1" type="text" default="readmore" label="PLG_CONTENT_PAGEBREAKMYJSPACE_CLASS_STYLE1_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_CLASS_STYLE1_DESC" />
+				<field name="class_pagination" type="text" default="" label="PLG_CONTENT_PAGEBREAKMYJSPACE_CLASS_PAGINATION_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_CLASS_PAGINATION_DESC" />
+				<field name="img_prev" type="text" default="" label="PLG_CONTENT_PAGEBREAKMYJSPACE_IMG_PREV_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_IMG_PREV_DESC" />
+				<field name="img_next" type="text" default="" label="PLG_CONTENT_PAGEBREAKMYJSPACE_IMG_NEXT_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_IMG_NEXT_DESC" />
+				<field name="del_img_n" type="text" default="0" label="PLG_CONTENT_PAGEBREAKMYJSPACE_DEL_IMG_N_LABEL" description="PLG_CONTENT_PAGEBREAKMYJSPACE_DEL_IMG_N_DESC" />
+			</fieldset>
+
+		</fields>
+	</config>
+
+</extension>

@@ -1,0 +1,17 @@
+<util>
+	<extension>pkg_BSMyJspace</extension>
+	<extension>com_myjspace</extension>
+	<extension>mod_myjspace</extension>
+	<extension>mod_viewmyjspace</extension>
+	<extension>myjsp</extension>
+	<extension>tagsmyjspace</extension>
+	<extension>myjspacesearch</extension>
+	<extension>pagebreakmyjspace</extension>
+	<extension>myjspaceuser</extension>
+	<extension>profilemyjspace</extension>
+	<extension>mod_mjsdemoreset</extension>
+	<extension>jsmyjspace</extension>
+	<extension>myjspace</extension>
+	<extension>jcommentmyjsp</extension>
+	<extension>myjsptemplateset</extension>
+</util>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<metadata>
+	<!-- 1.6+ -->
+	<layout title="COM_MYJSPACE_MYJSPACE_VIEW_DEFAULT_TITLE">
+		<message>COM_MYJSPACE_MYJSPACE_VIEW_DEFAULT_DESC</message>
+	</layout>
+
+	<!-- 1.5 -->
+	<state>
+		<name>COM_MYJSPACE_MYJSPACE_VIEW_DEFAULT_TITLE</name>
+		<description>COM_MYJSPACE_MYJSPACE_VIEW_DEFAULT_DESC</description>
+	</state>
+</metadata>

@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bj-advert-2 p{
+	text-align:right !important;
+	padding-right:15px;
+	padding-left:0px;
+	background-position:right center;
+}
+body{
+	text-align:right;
+}
+.bj-modules .menu li a{
+	background-position:right center;
+	padding-right:15px;
+	padding-left:0px;
+	width:auto;
+	display:block;
+}
+.bj-modules .menu li.parent a span{
+	background-position:left center;
+	width:auto;
+	display:block;
+	margin:0px;
+}
+caption, th, td, tr, tbody{
+	text-align:right;	
+}
+.bj-article .contentpaneopen tbody tr td, .bj-article .contentpaneopen tbody tr, .bj-article .contentpaneopen tbody{
+	display:block;
+	width:auto;
+}
+.bj-category-list .contentpaneopen, .bj-article .contentpaneopen, .bj-search .contentpaneopen{
+	width:auto;
+	display:block;
+}
+.qoute-3{
+	float:right;
+	margin-left:10px;
+	margin-right:0px;
+}
+.bj-typo-list-ordered ul li{
+	background-position:right center;
+	padding-left:0px;
+	padding-right:15px;
+}
+.bj-typo-list-special ul li{
+	background-position:100% 50%;
+	padding-left:0px;
+	padding-right:20px;
+}
+.bj-typo-list-accept ul li, .bj-typo-list-asterisk ul li, .bj-typo-list-star ul li{
+	background-position:right center;
+	padding-left:0px;
+	padding-right:23px;
+}
+.icons-style p{
+	padding-left:0px;
+	padding-right:40px;
+}
+.bj-typo-warning, .bj-typo-right, .bj-typo-lamp, .bj-typo-tag, .bj-typo-cart, .bj-typo-worng, .bj-typo-article, .bj-typo-destop{
+	background-position:right center;
+}
+.message-style p{
+	padding-left:30px;
+	padding-right:55px;
+}
+.bj-typo-message-grey, .bj-typo-message-white, .bj-typo-message-yellow, .bj-typo-message-rounded-grey, .bj-typo-message-rounded-white, .bj-typo-message-rounded-yellow, .bj-typo-message-grey-2, .bj-typo-message-white-2, .bj-typo-message-yellow-2, .bj-typo-message-rounded-grey, .bj-typo-message-rounded-white, .bj-typo-message-rounded-yellow{
+	background-position:95% center;
+}
+.bj-typo-link-style{
+	padding-left:0px;
+	padding-right:23px;
+}
+.bj-typo-right-2, .bj-typo-snow, .bj-typo-bell, .bj-typo-cart-2, .bj-typo-email, .bj-typo-star, .bj-typo-note, .bj-typo-bullet, .bj-typo-bullet-2, .bj-typo-book{
+	background-position:right center;
+}
+.bj-typo-table-red tr th, .bj-typo-table-blue tr th, .bj-typo-table-grey tr th{
+	text-align:right;
+}
+
+.bj-typo-head{
+	background:url("../images/typo/typo-bg-head-2.png") no-repeat scroll left center #E24B2D;	
+	padding:0 10px 2px 20px;
+}
+.list_menu .bg0{
+	text-align:left;
+}
+.bj-menu .list_menu li ul li{
+	text-align:right;
+	padding-left:0px;
+	padding-right:10px;
+}
+.bj-menu .list_menu li ul li a{
+	width:auto;
+	display:block;
+	background-position:right 10px;
+}
+.bj-menu .list_menu li ul li a:hover{
+	background-position:right 10px;
+	opacity:1;
+}
+.bj-menu .list_menu li ul li, .bj-menu .list_menu li ul li.active_mitem{
+	padding-left:0px;
+	padding-right:10px;
+}
+.bj-menu .list_menu li ul li.parent a, .bj-menu .list_menu li ul li ul li.parent a, .bj-menu .list_menu li ul li ul li ul li.parent a, .bj-menu .list_menu li ul li ul li ul li ul li.parent a{
+	background:url("../images/bj-menu-icon-7.png") no-repeat scroll 5% 5px transparent;
+}
+.bj-menu .list_menu li ul li.parent div.bg0{
+	left:-190px !important;
+}
+.bj-search .searchintro, .bj-search .searchintro tbody, .bj-search .searchintro tr, .bj-search .searchintro td{
+	width:auto;
+	display:block;
+}
+.bj-limit div{
+	float:right !important;
+}
+.bj-search .contentpaneopen td, .bj-search .contentpaneopen tr, .bj-search .contentpaneopen tbody{
+	width:auto;
+	display:block;
+}
+.bj-text ul li{	
+	background:url(../images/bj-menu-icon-4.png) right 7px no-repeat;
+	padding-left:0px;
+	padding-right:15px;
+}

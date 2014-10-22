@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6" method="upgrade">
+	<name>BS MyJspace</name>
+	<packagename>BSMyJspace</packagename>
+	<creationDate>01/09/2014</creationDate>
+	<author>Bernard Saulme</author>
+	<version>2.4.2</version>
+	<url>http://softs.saulme.fr</url>
+	<packager>Bernard Saulme</packager>
+	<packagerurl>http://softs.saulme.fr</packagerurl>
+	<description>
+	<![CDATA[BS MyJspace 2.4.2 - manages personal pages system for your users.<br /><br />
+	<div style="text-align: left;">
+		<img src="components/com_myjspace/images/myjspace.png" /><br /><br />
+		<div class="button2-left">
+			<div class="blank">
+				<a class="modal-button btn" href="index.php?option=com_myjspace&view=help">Finish and Check</a>
+			</div>
+		</div>
+		<br />
+		<ul>
+			<li>To check your configuration, you can use the <a href="index.php?option=com_myjspace&view=help">help tab</a></li>
+			<li>Depends of your choices (read the doc), you may have to create the folder "myjsp" (or your favorite name) and chmod folder to 755 OR use the component administration function to create it. You can do it using <a href="index.php?option=com_myjspace&view=url">'Component / BS MyJspace / Directory'</a></li>
+			<li>If you are upgrading you may (please  <a href="index.php?option=com_myjspace&view=help">check</a>) have to recreate the index files</li>
+			<li>If you are upgrating from a BS MyJspace version < 2.4.0 you have to re-set the search view options Options (into menu options now)
+		</ul>
+	</div>
+	]]>
+	</description>
+
+	<update>http://softs.saulme.fr/download/myjspace-update.xml</update>
+
+	<files folder="">
+		<file type="component"	id="com_myjspace">com_myjspace-2.4.2b414.zip</file>
+		<file type="plugin"		id="myjsp" group="editors">plg_myjsp-2.4.2b49.zip</file>
+		<file type="module"		id="mod_viewmyjspace" client="site">mod_viewmyjspace-2.4.2b69.zip</file>
+		<file type="plugin"		id="pagebreakmyjspace" group="content">plg_pagebreakmyjspace_2.4.2b101.zip</file>
+		<file type="plugin"		id="myjspacesearch" group="search">plg_search_myjspace_2.3.4b21.zip</file>
+		<file type="plugin"		id="tagsmyjspace" group="editors-xtd">plg_tagsmyjspace-2.4.0b14.zip</file>
+		<file type="plugin"		id="myjspace" group="quickicon">plg_quickicon_myjspace_2.3.4b6.zip</file>
+	</files>
+</extension>

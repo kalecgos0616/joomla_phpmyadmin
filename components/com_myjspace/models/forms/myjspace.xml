@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="metadata">
+        <fieldset name="jmetadata">
+			<field name="tags" type="tag" label="JTAG" description="JTAG_DESC" class="inputbox" multiple="true" ></field>
+        </fieldset>
+    </fields>
+</form>

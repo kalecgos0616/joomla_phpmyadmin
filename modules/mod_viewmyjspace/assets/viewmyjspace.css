@@ -1,0 +1,20 @@
+/* Name   :viewmyjspace.css */
+/* Author :Bernard Saulme   */
+/* Copyright (C) Bernard Saulme */
+
+.mod_viewmyjspace .vmyjsp_nbpage {
+	padding-left:5px;
+}
+
+.mod_viewmyjspace #myjsp-blocks,
+.mod_viewmyjspace .myjsp-blocks {
+	font-size:.875em;
+}
+
+.mod_viewmyjspace {
+	width:100%;
+}
+
+.mod_viewmyjspace .end-myjsp-block {
+	clear:both;
+}

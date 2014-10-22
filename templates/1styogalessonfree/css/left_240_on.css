@@ -1,0 +1,6 @@
+#leftcolumn div.module_tail{height:20px; margin-bottom:0px}
+#leftcolumn div.module_tail, #leftcolumn, #leftcolumn div.module_hat{width:240px}
+#leftcolumn div.module_content{width:210px}
+#leftcolumn div.module_hat{background-image:url(../images/mod_top_240.png)}
+#leftcolumn div.module_jacket{background-image:url(../images/mod_middle_240.png)}
+#leftcolumn div.module_tail{background-image:url(../images/mod_down_240.png)}

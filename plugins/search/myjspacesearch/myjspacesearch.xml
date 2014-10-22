@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="search" method="upgrade">
+	<name>Search - MyJspace</name>
+	<creationDate>20/03/2014</creationDate>
+	<author>Bernard Saulme</author>
+	<authorEmail>bernard@wanadoo.fr</authorEmail>
+	<authorUrl>http://softs.saulme.fr/</authorUrl>
+	<copyright>Version by Bernard Saulme</copyright>
+	<license>GNU/GPL</license>
+	<version>2.3.4</version>
+	<build>21</build>
+	<description>PLG_MYJSPACESEARCH_DESCRIPTION</description>
+	
+	<scriptfile>install.php</scriptfile>
+	
+	<files>
+		<filename plugin="myjspacesearch">myjspacesearch.php</filename>
+		<filename>index.html</filename>
+		<filename>COPYRIGHT.php</filename>
+	</files>
+
+	<languages folder="language">
+		<language tag="fr-FR">fr-FR.plg_search_myjspacesearch.ini</language>
+		<language tag="fr-FR">fr-FR.plg_search_myjspacesearch.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_search_myjspacesearch.ini</language>
+		<language tag="en-GB">en-GB.plg_search_myjspacesearch.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="search_limit" type="text" size="5" default="50" label="PLG_MYJSPACESEARCH_PARAM_SEARCH_LIMIT" description="PLG_MYJSPACESEARCH_PARAM_SEARCH_LIMIT_DESC"/>
+				<field name="content_limit" type="text" size="5" default="150" label="PLG_MYJSPACESEARCH_PARAM_CONTENT_LIMIT" description="PLG_MYJSPACESEARCH_PARAM_CONTENT_LIMIT_DESC"/>
+				<field name="param_url_mode" type="list" default="0" label="PLG_MYJSPACESEARCH_PARAM_URL_MODE_LABEL" description="PLG_MYJSPACESEARCH_PARAM_URL_MODE_DESC">
+					<option value="0">PLG_MYJSPACESEARCH_PARAM_URL_MODE0</option>
+					<option value="1">PLG_MYJSPACESEARCH_PARAM_URL_MODE1</option>
+				</field>
+				<field type="text" name="forced_itemid" size="4" default="" label="PLG_MYJSPACESEARCH_PARAM_FORCED_ITEMID_LABEL" description="PLG_MYJSPACESEARCH_PARAM_FORCED_ITEMID_DESC" />
+				<field type="list" name="use_com_acl" default="0" label="PLG_MYJSPACESEARCH_USE_COM_ACL_LABEL" description="PLG_MYJSPACESEARCH_USE_COM_ACL_DESC">
+					<option value="0">PLG_MYJSPACESEARCH_NO</option>
+					<option value="1">PLG_MYJSPACESEARCH_YES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<metadata>
+	<!-- 1.6+ -->
+	<layout title="COM_MYJSPACE_SEARCH_VIEW_DEFAULT_TITLE">
+		<message>COM_MYJSPACE_SEARCH_VIEW_DEFAULT_DESC</message>
+	</layout>
+
+	<fields name="params">
+		<!-- Basic options. -->
+		<fieldset name="basic" label="COM_MYJSPACE_SEARCH_OPTIONS" addfieldpath="/administrator/components/com_myjspace/models/fields">
+			<field name="catid" type="category" extension="com_myjspace" show_root="true" default="" label="COM_MYJSPACE_SEARCH_CATID_LABEL" description="COM_MYJSPACE_SEARCH_CATID_DESC" />
+			<field name="separ" type="list" default="0" label="COM_MYJSPACE_SEARCH_SEPAR_LABEL" description="COM_MYJSPACE_SEARCH_SEPAR_LABEL" >
+				<option value="0">COM_MYJSPACE_SEARCH_SEPAR_0</option>
+				<option value="1">COM_MYJSPACE_SEARCH_SEPAR_1</option>
+				<option value="2">COM_MYJSPACE_SEARCH_SEPAR_2</option>
+				<option value="3">COM_MYJSPACE_SEARCH_SEPAR_3</option>
+			</field>
+			<field type="text" name="search_page_title" size="40" default="" label="COM_MYJSPACE_SEARCH_PAGE_TITLE_LABEL" description="COM_MYJSPACE_SEARCH_PAGE_TITLE_DESC" />
+			<field name="select" type="radio" default="1" label="COM_MYJSPACE_SEARCH_SELECT_LABEL" description="COM_MYJSPACE_SEARCH_SELECT_DESC" class="btn-group" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</field>
+			<field name="search_advanced_criteria" type="radio" default="1" label="COM_MYJSPACE_SEARCH_ADVANCED_CRITERIA_LABEL" description="COM_MYJSPACE_SEARCH_ADVANCED_CRITERIA_DESC" class="btn-group" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</field>
+			<field name="search_sort_use" type="radio" default="1" label="COM_MYJSPACE_SEARCH_SORT_USE_LABEL" description="COM_MYJSPACE_SEARCH_SORT_USE_DESC" class="btn-group" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</field>
+			<field name="sort" type="list" default="4" label="COM_MYJSPACE_SEARCH_SORT_LABEL" description="COM_MYJSPACE_SEARCH_SORT_DESC" >
+				<option value="0">COM_MYJSPACE_SEARCHSORT0</option>
+				<option value="1">COM_MYJSPACE_SEARCHSORT1</option>
+				<option value="2">COM_MYJSPACE_SEARCHSORT2</option>
+				<option value="3">COM_MYJSPACE_SEARCHSORT3</option>
+				<option value="4">COM_MYJSPACE_SEARCHSORT4</option>
+				<option value="5">COM_MYJSPACE_SEARCHSORT5</option>
+			</field>
+			<field name="check_search" type="mycheckboxes" default="name,content,description" label="COM_MYJSPACE_SEARCH_CHECK_SEARCH_LABEL" description="COM_MYJSPACE_SEARCH_CHECK_SEARCH_DESC">
+				<option value="name">COM_MYJSPACE_SEARCH_CHECK_SEARCH_NAME</option>
+				<option value="content">COM_MYJSPACE_SEARCH_CHECK_SEARCH_CONTENT</option>
+				<option value="description">COM_MYJSPACE_SEARCH_CHECK_SEARCH_DESCRIPTION</option>
+			</field>
+			<field name="svalue" type="text" default="" label="COM_MYJSPACE_SEARCH_SVALUE_LABEL" description="COM_MYJSPACE_SEARCH_SVALUE_DESC" />
+			<field name="search_aff_add" type="mycheckboxes" default="64,2,1" label="COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_DEFAULT_16_DESC">
+				<option value="64">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_64</option>
+				<option value="1">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_1</option>
+				<option value="4096">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_4096</option>
+				<option value="2">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_2</option>
+				<option value="128">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_128</option>
+				<option value="4">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_4</option>
+				<option value="8">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_8</option>
+				<option value="16">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_16</option>
+				<option value="32">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_32</option>
+				<option value="256">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_256</option>
+				<option value="512">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_512</option>
+				<option value="2048">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_2048</option>
+				<option value="1024">COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_1024</option>
+			</field>
+			<field name="search_labels" type="radio" default="1" label="COM_MYJSPACE_ADMIN_SEARCH_LABELS_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_LABELS_DEFAULT_DESC" class="btn-group" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</field>
+			<field name="search_image_video" type="radio" default="1" label="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_VIDEO_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_VIDEO_DEFAULT_DESC" class="btn-group" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</field>
+			<field name="search_image_effect" type="list" default="3" label="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LABEL" description="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_DESC" >
+				<option value="0">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_0</option>
+				<option value="1">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_1</option>
+				<option value="2">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_2</option>
+				<option value="3">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_3</option>
+			</field>
+			<field name="search_image_effect_list" type="list" default="2" label="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_LABEL" description="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_LABEL" >
+				<option value="0">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_0</option>
+				<option value="1">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_1</option>
+				<option value="2">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_2</option>
+			</field>
+			<field name="search_pagination" type="radio" default="1" label="COM_MYJSPACE_ADMIN_SEARCH_PAGINATION_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_PAGINATION_DEFAULT_DESC" class="btn-group" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</field>
+			<field name="search_image_type" type="list" default="2" label="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_DESC" >
+				<option value="1">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_1</option>
+				<option value="2">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_2</option>
+				<option value="3">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_3</option>
+				<option value="4">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_4</option>
+				<option value="5">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_5</option>
+			</field>
+			<field name="search_image_default" type="text" size="40" default="components/com_myjspace/images/default.png" label="COM_MYJSPACE_SEARCH_IMAGE_DEFAULT_LABEL" description="COM_MYJSPACE_SEARCH_IMAGE_DEFAULT_DESC" />
+			<field type="spacer" name="myspacer1" hr="true" />
+			<field name="search_block_width" type="text" size="3" default="150" label="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_DESC" />
+			<field name="search_block_height" type="text" size="3" default="200" label="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_DESC" />
+			<field name="search_block_width_min" type="text" size="4" default="150" label="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_MIN_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_MIN_DESC" />
+			<field name="search_block_height_min" type="text" size="4" default="200" label="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_MIN_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_MIN_DESC" />
+			<field type="spacer" name="myspacer2" hr="true" />
+			<field name="search_max_line" type="text" size="3" default="200" label="COM_MYJSPACE_ADMIN_SEARCH_MAX_LINE_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_MAX_LINE_DESC" />
+			<field name="title_limit" type="text" size="3" default="20" label="COM_MYJSPACE_SEARCH_TITLE_LIMIT_LABEL" description="COM_MYJSPACE_SEARCH_TITLE_LIMIT_DESC" />
+			<field name="content_limit" type="text" size="3" default="150" label="COM_MYJSPACE_SEARCH_CONTENT_LIMIT_LABEL" description="COM_MYJSPACE_SEARCH_CONTENT_LIMIT_DESC" />
+			<field name="description_limit" type="text" size="3" default="45" label="COM_MYJSPACE_SEARCH_DESCRIPTION_LIMIT_LABEL" description="COM_MYJSPACE_SEARCH_DESCRIPTION_LIMIT_DESC" />
+			<field name="rss_feed" type="text" size="3" default="50" label="COM_MYJSPACE_ADMIN_SEARCH_RSS_FEED_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_RSS_FEED_DESC" />
+		</fieldset>
+	</fields>	
+
+	<!-- 1.5 -->
+	<state>
+		<name>COM_MYJSPACE_SEARCH_VIEW_DEFAULT_TITLE</name>
+		<description>COM_MYJSPACE_SEARCH_VIEW_DEFAULT_DESC</description>
+		<params>
+			<param name="separ" type="list" default="0" label="COM_MYJSPACE_SEARCH_SEPAR_LABEL" description="COM_MYJSPACE_SEARCH_SEPAR_DESC" >
+				<option value="0">COM_MYJSPACE_SEARCH_SEPAR_0</option>
+				<option value="1">COM_MYJSPACE_SEARCH_SEPAR_1</option>
+				<option value="2">COM_MYJSPACE_SEARCH_SEPAR_2</option>
+				<option value="3">COM_MYJSPACE_SEARCH_SEPAR_3</option>
+			</param>
+			<param type="text" name="search_page_title" size="40" default="" label="COM_MYJSPACE_SEARCH_PAGE_TITLE_LABEL" description="COM_MYJSPACE_SEARCH_PAGE_TITLE_DESC" />
+			<param name="select" type="list" default="1" label="COM_MYJSPACE_SEARCH_SELECT_LABEL" description="COM_MYJSPACE_SEARCH_SELECT_DESC">
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</param>
+			<param name="search_advanced_criteria" type="list" default="1" label="COM_MYJSPACE_SEARCH_ADVANCED_CRITERIA_LABEL" description="COM_MYJSPACE_SEARCH_ADVANCED_CRITERIA_DESC">
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</param>
+			<param name="search_sort_use" type="radio" default="1" label="COM_MYJSPACE_SEARCH_SORT_USE_LABEL" description="COM_MYJSPACE_SEARCH_SORT_USE_DESC" class="btn-group" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</param>
+			<param name="sort" type="list" default="4" label="COM_MYJSPACE_SEARCH_SORT_LABEL" description="COM_MYJSPACE_SEARCH_SORT_DESC">
+				<option value="0">COM_MYJSPACE_SEARCHSORT0</option>
+				<option value="1">COM_MYJSPACE_SEARCHSORT1</option>
+				<option value="2">COM_MYJSPACE_SEARCHSORT2</option>
+				<option value="3">COM_MYJSPACE_SEARCHSORT3</option>
+				<option value="4">COM_MYJSPACE_SEARCHSORT4</option>
+				<option value="5">COM_MYJSPACE_SEARCHSORT5</option>
+			</param>
+			<!-- 1.5 name="check_search" not used for J!1.5 ... type="checkboxes" do not exists -->
+			<param name="svalue" type="text" default="" label="COM_MYJSPACE_SEARCH_SVALUE_LABEL" description="COM_MYJSPACE_SEARCH_SVALUE_DESC" />
+			<param name="search_aff_add" type="text" size="3" default="67" label="COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_AFF_ADD_DEFAULT_DESC" />
+			<param name="search_labels" type="list" default="1" label="COM_MYJSPACE_ADMIN_SEARCH_LABELS_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_LABELS_DEFAULT_DESC" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</param>
+			<param name="search_image_video" type="list" default="1" label="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_VIDEO_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_VIDEO_DEFAULT_DESC" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</param>
+			<param name="search_image_effect" type="list" default="3" label="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LABEL" description="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_DESC" >
+				<option value="0">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_0</option>
+				<option value="1">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_1</option>
+				<option value="2">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_2</option>
+				<option value="3">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_3</option>
+			</param>
+			<param name="search_image_effect_list" type="list" default="2" label="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_LABEL" description="COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_LABEL" >
+				<option value="0">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_0</option>
+				<option value="1">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_1</option>
+				<option value="2">COM_MYJSPACE_SEARCH_IMAGE_EFFECT_LIST_2</option>
+			</param>
+			<param name="search_pagination" type="list" default="1" label="COM_MYJSPACE_ADMIN_SEARCH_PAGINATION_DEFAULT_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_PAGINATION_DEFAULT_DESC" >
+				<option value="0">COM_MYJSPACE_ADMIN_NO</option>
+				<option value="1">COM_MYJSPACE_ADMIN_YES</option>
+			</param>
+			<param name="search_image_type" type="list" default="2" label="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_DESC" >
+				<option value="1">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_1</option>
+				<option value="2">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_2</option>
+				<option value="3">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_3</option>
+				<option value="4">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_4</option>
+				<option value="5">COM_MYJSPACE_ADMIN_SEARCH_IMAGE_TYPE_5</option>
+			</param>
+			<param type="text" name="search_image_default" size="40" default="components/com_myjspace/images/default.png" label="COM_MYJSPACE_SEARCH_IMAGE_DEFAULT_LABEL" description="COM_MYJSPACE_SEARCH_IMAGE_DEFAULT_DESC" />
+			<param type="text" name="search_block_width" size="3" default="150" label="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_DESC" />
+			<param type="text" name="search_block_height" size="3" default="200" label="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_DESC" />
+			<param name="search_block_width_min" type="text" size="4" default="150" label="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_MIN_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_WIDTH_MIN_DESC" />
+			<param name="search_block_height_min" type="text" size="4" default="200" label="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_MIN_LABEL" description="COM_MYJSPACE_SEARCH_BLOCK_HEIGHT_MIN_DESC" />
+			<param type="text" name="search_max_line" size="3" default="200" label="COM_MYJSPACE_ADMIN_SEARCH_MAX_LINE_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_MAX_LINE_DESC" />
+			<param type="text" name="title_limit" size="3" default="20" label="COM_MYJSPACE_SEARCH_TITLE_LIMIT_LABEL" description="COM_MYJSPACE_SEARCH_TITLE_LIMIT_DESC" />
+			<param type="text" name="content_limit" size="3" default="150" label="COM_MYJSPACE_SEARCH_CONTENT_LIMIT_LABEL" description="COM_MYJSPACE_SEARCH_CONTENT_LIMIT_DESC" />
+			<param type="text" name="description_limit" size="3" default="45" label="COM_MYJSPACE_SEARCH_DESCRIPTION_LIMIT_LABEL" description="COM_MYJSPACE_SEARCH_DESCRIPTION_LIMIT_DESC" />
+			<param type="text" name="rss_feed" size="3" default="50" label="COM_MYJSPACE_ADMIN_SEARCH_RSS_FEED_LABEL" description="COM_MYJSPACE_ADMIN_SEARCH_RSS_FEED_DESC" />
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<install version="2.5" type="template" method="upgrade">
+	<name>1stYogaLessonFree</name>
+	<creationDate>2012/03/14</creationDate>
+	<author>Alexander Hilliger</author>
+	<authorEmail>alexander@hilliger-media.de</authorEmail>
+	<authorUrl>http://www.hilliger-media.de</authorUrl>
+	<copyright>Copyright (C) 2005 - 2011 Hilliger Media, All rights reserved.</copyright>
+	<license>GNU General Public License</license>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+	
+		<p><IMG SRC="../templates/1styogalessonfree/images/info/description.png"><p/>
+		
+		<table width="400" border="0" cellpadding="5">
+  <tr>
+    <td width="32"><img src="../templates/1styogalessonfree/images/info/picture_add.png" width="32" height="32" /></td>
+    <td width="368"><a href="http://shop.hilliger-media.de/index.php?page=shop.product_details&flypage=free_flypage.tpl&product_id=288&category_id=31&option=com_virtuemart&Itemid=1" target="_blank">DOWNLOAD FREE HEADER</a><br />
+	Use this Header without any Titles for your own Logos and Slogans.
+	</td>
+  </tr>
+  <tr>
+    <td><img src="../templates/1styogalessonfree/images/info/cart_add.png" width="32" height="32" /></td>
+    <td><a href="http://shop.hilliger-media.de/index.php?page=shop.product_details&flypage=hilliger_flypage.tpl&product_id=289&category_id=1&option=com_virtuemart&Itemid=1" target="_blank">BUY EXTENDED VERSION</a><br />
+	Buy the extended Version and get more features!</td>
+  </tr>
+  <tr>
+    <td><img src="../templates/1styogalessonfree/images/info/application_side_boxes.png" width="32" height="32" /></td>
+    <td><a href="../templates/1styogalessonfree/images/info/ModulPosition_free.png" target="_blank">MODUL POSITION INFO FREE VERSION</a><br />
+	Get all Informations about supported Modul-Positions and Parameters of the free Version.
+	</td>
+  </tr>
+  <tr>
+    <td><img src="../templates/1styogalessonfree/images/info/application_side_boxes.png" alt="" width="32" height="32" /></td>
+    <td><a href="../templates/1styogalessonfree/images/info/ModulPosition_extended.png" target="_blank">MODUL POSITION INFO EXTEDNED VERSION</a><br />
+	Get all Informations about supported Modul-Positions and Parameters of the extended Version.
+	</td>
+  </tr>
+</table>
+	
+	]]>
+	</description>
+
+  <files>
+    <filename>css/template.css</filename>
+	<filename>css/content_200_200.css</filename>
+	<filename>css/content_240_240.css</filename>
+	<filename>css/content_id01.css</filename>
+    <filename>css/content_id02.css</filename>
+	<filename>css/content_id03.css</filename>
+	<filename>css/content_id04.css</filename>
+	<filename>css/left_200_off.css</filename>
+	<filename>css/left_200_on.css</filename>
+	<filename>css/left_240_off.css</filename>
+	<filename>css/left_240_on.css</filename>
+	<filename>css/menu_border.css</filename>
+	<filename>css/menu_icon.css</filename>
+	<filename>css/menu_simple.css</filename>
+    <filename>html/modules.php</filename>
+	<filename>images/anim_001.gif</filename>
+	<filename>images/logo_001.png</filename>
+	<filename>images/background.jpg</filename>
+	<filename>images/bottom.png</filename>
+    <filename>images/breadcrumb.png</filename>
+	<filename>images/content_back.png</filename>
+	<filename>images/leading_back.png</filename>
+	<filename>images/icon_category.gif</filename>
+    <filename>images/icon_date_add.gif</filename>
+	<filename>images/icon_date_edit.gif</filename>
+	<filename>images/icon_hits.png</filename>
+	<filename>images/icon_login.jpg</filename>
+	<filename>images/icon_password.jpg</filename>
+	<filename>images/icon_user.gif</filename>
+	<filename>images/menu.png</filename>
+	<filename>images/menu_hover.png</filename>
+	<filename>images/menu_icon.png</filename>
+	<filename>images/menu_icon_hover.png</filename>
+	<filename>images/mod_down.png</filename>
+	<filename>images/mod_down_240.png</filename>
+	<filename>images/mod_middle.png</filename>
+    <filename>images/mod_middle_240.png</filename>
+    <filename>images/mod_top.png</filename>
+	<filename>images/mod_top_240.png</filename>
+	<filename>images/mod_user3.png</filename>	
+    <filename>images/site.png</filename>
+	<filename>images/overlay_001.png</filename>
+    <filename>images/system/rating_star.png</filename>
+    <filename>images/system/rating_star_blank.png</filename>	
+    <filename>images/info/12-em-check.png</filename>
+	<filename>images/info/12-em-cross.png</filename>
+	<filename>images/info/picture_add.png</filename>
+	<filename>images/info/description.png</filename>
+	<filename>images/info/application_side_boxes.png</filename>
+	<filename>images/info/cart_add.png</filename>
+	<filename>images/info/ModulPosition_extended.png</filename>
+	<filename>images/info/ModulPosition_free.png</filename>
+    <filename>index.php</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_thumbnail.png</filename>
+	<filename>template_preview.png</filename>
+    <filename>favicon.ico</filename>
+  </files>
+
+  <positions>
+	<position>posTopMenu</position>
+	<position>posLeft</position>
+	<position>posPathway</position>
+	<position>posBanner</position>
+	<position>posFooter</position>
+  </positions>
+
+  <config>
+    <fields name="params">
+	  <fieldset name="advanced">
+		
+    <field name="contentstyle" type="list" default="content_id04" label="Content Style" description="Controls the Content-Layout">
+      <option value="content_id01">off</option>
+      <option value="content_id02">Show Icons</option>
+	  <option value="content_id03">Show Background</option>
+	  <option value="content_id04">Show Icons and Background</option>
+    </field>
+	
+	<field name="menustyle" type="radio" default="menu_border" label="Menu Style" description="Please select the Menustyle">
+        <option value="menu_icon">Icons</option>
+        <option value="menu_border">Border</option>
+		<option value="menu_simple">Simple</option>
+    </field>
+	
+	<field type="spacer" default=" "  />
+	
+    <field name="leftmodules" type="radio" default="on" label="Left Module-Graphics" description="Show/hide the Module Graphics">
+	  <option value="off">hide</option>
+      <option value="on">show</option>
+    </field>
+
+    <field type="spacer" default=" "  />
+
+	<field name="leftwidth" type="radio" default="left_200" label="Left Module width" description="Width Modules left">
+	  <option value="left_200">200px</option>
+      <option value="left_240">240px</option>
+    </field>
+	
+	  </fieldset>
+    </fields>
+  </config>
+</install>

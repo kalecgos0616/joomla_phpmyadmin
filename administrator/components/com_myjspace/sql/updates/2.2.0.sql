@@ -1,0 +1,4 @@
+-- 2.2.0.sql
+-- 18/12/2013
+-- author	Bernard saulme
+-- package	com_myjspace

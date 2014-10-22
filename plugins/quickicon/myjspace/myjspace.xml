@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install>
+<extension version="1.6" type="plugin" group="quickicon" method="upgrade">
+	<name>plg_quickicon_myjspace</name>
+	<creationDate>20/03/2014</creationDate>
+	<author>Bernard Saulme</author>
+	<authorEmail>bernard@wanadoo.fr</authorEmail>
+	<authorUrl>http://softs.saulme.fr/</authorUrl>
+	<copyright>Version by Bernard Saulme</copyright>
+	<license>GNU/GPL</license>
+	<version>2.3.4</version>
+	<build>6</build>
+	<description>Quick icon - BS MyJspace</description>
+	
+ 	<scriptfile>install.php</scriptfile>
+
+	<files>
+		<filename plugin="myjspace">myjspace.php</filename>
+		<filename>myjspace.css</filename>
+		<filename>index.html</filename>
+		<filename>COPYRIGHT.php</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="fr-FR">fr-FR.plg_quickicon_myjspace.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_quickicon_myjspace.sys.ini</language>
+	</languages>
+</extension>

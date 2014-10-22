@@ -1,0 +1,4 @@
+/* Configuration Menu Links */
+#leftcolumn div.module_menu a{text-decoration:none; padding-left:5px; margin-top:3px; margin-bottom:3px}
+#leftcolumn div.module_menu ul li a{text-decoration:none; font-size:11px;  margin-top:3px}
+#leftcolumn div.module_menu ul ul li a{text-decoration:none; margin-left:5px; font-size:11px; margin-top:3px}
